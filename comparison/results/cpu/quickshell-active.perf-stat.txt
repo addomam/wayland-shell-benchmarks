@@ -1,0 +1,14 @@
+# started on Thu Sep 24 14:40:38 2026
+
+
+ Performance counter stats for process id '62699':
+
+            515.27 msec task-clock:u                                                          
+                 0      context-switches:u                                                    
+                 0      cpu-migrations:u                                                      
+                14      page-faults:u                                                         
+         304751980      cycles:u                                                              
+         107679253      instructions:u                                                        
+
+      30.006599844 seconds time elapsed
+

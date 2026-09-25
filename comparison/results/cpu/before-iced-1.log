@@ -1,0 +1,24 @@
+CREATE bar@DP-3
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+TOGGLE launcher@DP-3 hidden
+CREATE input-test@DP-3
+CREATE input-test@eDP-1
+CREATE launcher@DP-3
+CREATE launcher@eDP-1
+CREATE menu@DP-3
+CREATE menu@eDP-1
+CONFIG applied
+READY input-test@DP-3
+READY input-test@eDP-1
+READY launcher@DP-3
+READY launcher@eDP-1
+READY menu@DP-3
+READY menu@eDP-1
+INPUT input-test@DP-3 185,100,250,160 size=620x360
+INPUT input-test@eDP-1 185,100,250,160 size=620x360

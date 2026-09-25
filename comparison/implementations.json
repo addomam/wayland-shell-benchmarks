@@ -1,0 +1,44 @@
+[
+  {
+    "name": "web",
+    "cwd": "webshell-prototype",
+    "config": "webshell-prototype/surfaces.json",
+    "namespace": "webshell-",
+    "command": [
+      "{root}/webshell-prototype/target/release/webshell",
+      "--layer",
+      "--config",
+      "{config}",
+      "--control",
+      "{control}"
+    ]
+  },
+  {
+    "name": "iced",
+    "cwd": "iced-shell",
+    "config": "iced-shell/surfaces.json",
+    "namespace": "iced-shell-",
+    "command": [
+      "{root}/iced-shell/target/release/iced-shell",
+      "--config",
+      "{config}",
+      "--control",
+      "{control}"
+    ]
+  },
+  {
+    "name": "quickshell",
+    "cwd": "quickshell-shell",
+    "config": "quickshell-shell/surfaces.json",
+    "namespace": "qs-shell-",
+    "command": [
+      "{root}/quickshell-shell/result/bin/quickshell",
+      "-p",
+      "{root}/quickshell-shell/shell.qml"
+    ],
+    "env": {
+      "SHELL_CONFIG": "{config}",
+      "SHELL_CONTROL": "{control}"
+    }
+  }
+]

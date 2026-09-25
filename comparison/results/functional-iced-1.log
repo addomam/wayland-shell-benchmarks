@@ -1,0 +1,56 @@
+CREATE bar@DP-3
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+CONFIG applied
+READY bar@DP-3
+READY bar@eDP-1
+CONFIG_ERROR EOF while parsing an object at line 1 column 1
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+CONFIG applied
+READY bar@DP-3
+READY bar@eDP-1
+CREATE notes@DP-3
+CREATE notes@eDP-1
+CONFIG applied
+READY notes@DP-3
+READY notes@eDP-1
+CONTENT notes@DP-3
+CONTENT notes@eDP-1
+CONFIG applied
+READY notes@DP-3
+READY notes@eDP-1
+DESTROY notes@DP-3
+DESTROY notes@eDP-1
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+CONFIG applied
+READY bar@DP-3
+READY bar@eDP-1
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+TOGGLE launcher@DP-3 hidden
+CREATE menu@DP-3
+TOGGLE menu@DP-3 shown
+READY menu@DP-3
+DESTROY menu@DP-3
+TOGGLE menu@DP-3 hidden
+CREATE input-test@DP-3
+TOGGLE input-test@DP-3 shown
+READY input-test@DP-3
+DESTROY input-test@DP-3
+TOGGLE input-test@DP-3 hidden
+CONTENT reloaded
+READY bar@DP-3
+READY bar@eDP-1

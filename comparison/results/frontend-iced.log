@@ -1,0 +1,12 @@
+CREATE bar@DP-3
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CONTENT bar@DP-3
+CONTENT bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CONTENT bar@DP-3
+CONTENT bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1

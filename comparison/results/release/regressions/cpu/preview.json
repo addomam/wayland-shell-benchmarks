@@ -1,0 +1,93 @@
+{
+  "bars": [
+    {
+      "address": "0x5be65f86e010",
+      "mapped": true,
+      "hidden": false,
+      "visible": true,
+      "acceptsInput": true,
+      "at": [
+        1302,
+        22
+      ],
+      "size": [
+        1251,
+        691
+      ],
+      "workspace": {
+        "id": 3,
+        "name": "3"
+      },
+      "floating": false,
+      "monitor": 1,
+      "class": "",
+      "title": "Iced Shell - Iced",
+      "initialClass": "",
+      "initialTitle": "Iced Shell - Iced",
+      "pid": 77927,
+      "xwayland": false,
+      "pinned": false,
+      "pinFullscreened": false,
+      "fullscreen": 0,
+      "fullscreenClient": 0,
+      "fullscreenHandler": "default",
+      "allowedOverFullscreen": true,
+      "grouped": [],
+      "tags": [],
+      "swallowing": "0x0",
+      "focusHistoryID": 1,
+      "inhibitingIdle": false,
+      "xdgTag": "",
+      "xdgDescription": "",
+      "contentType": "none",
+      "tearingHint": false,
+      "stableId": "1800012a"
+    },
+    {
+      "address": "0x5be661008520",
+      "mapped": true,
+      "hidden": false,
+      "visible": true,
+      "acceptsInput": true,
+      "at": [
+        1302,
+        727
+      ],
+      "size": [
+        1251,
+        691
+      ],
+      "workspace": {
+        "id": 3,
+        "name": "3"
+      },
+      "floating": false,
+      "monitor": 1,
+      "class": "",
+      "title": "Iced Shell - Iced",
+      "initialClass": "",
+      "initialTitle": "",
+      "pid": 77927,
+      "xwayland": false,
+      "pinned": false,
+      "pinFullscreened": false,
+      "fullscreen": 0,
+      "fullscreenClient": 0,
+      "fullscreenHandler": "default",
+      "allowedOverFullscreen": true,
+      "grouped": [],
+      "tags": [],
+      "swallowing": "0x0",
+      "focusHistoryID": 0,
+      "inhibitingIdle": false,
+      "xdgTag": "",
+      "xdgDescription": "",
+      "contentType": "none",
+      "tearingHint": false,
+      "stableId": "1800012b"
+    }
+  ],
+  "launcher_shown": 3,
+  "launcher_hidden": 2,
+  "passed": true
+}

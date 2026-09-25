@@ -1,0 +1,28 @@
+{
+  "samples": [
+    {
+      "name": "web",
+      "filter_screenshot": "comparison/results/keyboard-web.png",
+      "escape_closes": true,
+      "workspace_pointer_ipc_ms": 15.494748004130088,
+      "workspace_click_offset": 245,
+      "webview_recovery_layer_ms": 326.00549399649026,
+      "webview_crash_host_survived": true
+    },
+    {
+      "name": "iced",
+      "filter_screenshot": "comparison/results/keyboard-iced.png",
+      "escape_closes": true,
+      "workspace_pointer_ipc_ms": 8.631165997940116,
+      "workspace_click_offset": 160
+    },
+    {
+      "name": "quickshell",
+      "filter_screenshot": "comparison/results/keyboard-quickshell.png",
+      "escape_closes": true,
+      "workspace_pointer_ipc_ms": 6.774011999368668,
+      "workspace_click_offset": 185
+    }
+  ],
+  "errors": []
+}

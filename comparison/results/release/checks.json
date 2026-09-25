@@ -1,0 +1,34 @@
+[
+  {
+    "script": "bench.py",
+    "exit_code": 0
+  },
+  {
+    "script": "interactions.py",
+    "exit_code": 0
+  },
+  {
+    "script": "frontend.py",
+    "exit_code": 0
+  },
+  {
+    "script": "keyboard.py",
+    "exit_code": 0
+  },
+  {
+    "script": "cpu_watch_test.py",
+    "exit_code": 0
+  },
+  {
+    "script": "cpu_outputs.py",
+    "exit_code": 0
+  },
+  {
+    "script": "cpu_preview.py",
+    "exit_code": 0
+  },
+  {
+    "script": "cpu_control_test.py",
+    "exit_code": 0
+  }
+]

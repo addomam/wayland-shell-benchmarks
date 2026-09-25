@@ -1,0 +1,12 @@
+Recorded 2026-09-24 on enclave
+NixOS 26.11.20260922.6774f7b (Zokor)
+Intel Core i7-1068NG7 @2.30GHz, 4 cores /8 threads
+Hyprland0.56.2, Wayland zwlr_layer_shell_v1
+Outputs: eDP-1 2560x1600 scale2 @60.001Hz; DP-3 2560x1440 scale1 @59.997Hz
+Pinned Nixpkgs:567a49d1913ce81ac6e9582e3553dd90a955875f
+Rust1.95.0, Cargo1.95.0
+GTK4.22.4; WebKitGTK2.52.4; gtk4-layer-shell1.3.0
+iced0.14.0; iced_wgpu0.14.0; iced_exwlshell0.20.1
+Quickshell0.3.0; Qt6.11.0
+Runs use normal desktop compositor animations and caches, no system tuning or cache eviction.
+Metrics include app child processes but exclude compositor, Nix/build process, test harness and GPU allocation not accounted in PSS.

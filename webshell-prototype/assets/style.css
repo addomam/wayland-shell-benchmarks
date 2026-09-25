@@ -1,0 +1,50 @@
+:root {
+  color-scheme: dark;
+  font: 15px system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; color: #f1f1f7; background: #181923; }
+
+.bar {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 14px;
+  background: #202332;
+}
+
+.brand { opacity: .7; }
+#clock { margin-left: auto; font-variant-numeric: tabular-nums; }
+#workspaces { display: flex; gap: 5px; }
+
+.launcher {
+  min-height: 100vh;
+  padding: 26px;
+  border: 1px solid #41445b;
+  border-radius: 18px;
+  background: #222534;
+}
+
+header { display: flex; justify-content: space-between; font-size: 22px; margin-bottom: 22px; }
+input { width: 100%; padding: 14px; border: 0; border-radius: 9px; background: #353950; color: white; font: inherit; outline: none; }
+main { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 24px 0; }
+main div { padding: 17px; border-radius: 9px; background: #303449; }
+main div[hidden] { display: none; }
+small { opacity: .55; }
+
+.bar button, .menu button, .launcher button, .input-test button {
+  color: #f1f1f7;
+  background: #465179;
+  border: 0;
+  border-radius: 7px;
+  padding: 7px 10px;
+  cursor: pointer;
+  font: inherit;
+}
+.bar button.active { background: #8295ec; color: #11142a; font-weight: 700; }
+
+.menu { height: 100vh; padding: 20px; background: #222534; border: 1px solid #555b80; border-radius: 10px; }
+.input-test { background: transparent; height: 100vh; display: grid; place-items: center; }
+.input-test #hit { width: 250px; min-height: 160px; padding: 18px; background: #35406b; border-radius: 16px; box-shadow: 0 8px 35px #0008; }

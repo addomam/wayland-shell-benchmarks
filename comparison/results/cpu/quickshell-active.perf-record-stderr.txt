@@ -1,0 +1,2 @@
+[ perf record: Woken up 13 times to write data ]
+[ perf record: Captured and wrote 4.387 MB /home/addomam/Projects/wayland-web-widgets/comparison/results/cpu/quickshell-active.perf.data (526 samples) ]

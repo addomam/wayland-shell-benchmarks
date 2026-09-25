@@ -1,0 +1,2 @@
+[ perf record: Woken up 2 times to write data ]
+[ perf record: Captured and wrote 0.860 MB /home/addomam/Projects/wayland-web-widgets/comparison/results/cpu/profiled-idle.perf.data (101 samples) ]

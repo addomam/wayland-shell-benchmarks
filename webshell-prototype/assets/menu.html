@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="shell.js"></script>
+</head>
+<body class="menu">
+  <strong>Separate popup surface</strong>
+  <p>This menu extends below the bar without enlarging the bar's native surface.</p>
+  <button id="close">Close</button>
+  <script>document.getElementById('close').onclick = () => shell.surfaces.toggle('menu');</script>
+</body>
+</html>

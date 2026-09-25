@@ -1,0 +1,84 @@
+[
+  {
+    "name": "before",
+    "layers": [
+      {
+        "address": "0x5be660f4b480",
+        "x": 0,
+        "y": 96,
+        "w": 1280,
+        "h": 44,
+        "alpha": 1,
+        "namespace": "iced-shell-bar@eDP-1",
+        "pid": 61865,
+        "output": "eDP-1",
+        "level": 2
+      },
+      {
+        "address": "0x5be660e88630",
+        "x": 1280,
+        "y": 0,
+        "w": 2560,
+        "h": 44,
+        "alpha": 1,
+        "namespace": "iced-shell-bar@DP-3",
+        "pid": 61865,
+        "output": "DP-3",
+        "level": 2
+      },
+      {
+        "address": "0x5be660fa7490",
+        "x": 2280,
+        "y": 547,
+        "w": 560,
+        "h": 390,
+        "alpha": 1,
+        "namespace": "iced-shell-launcher@DP-3",
+        "pid": 61865,
+        "output": "DP-3",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "name": "after",
+    "layers": [
+      {
+        "address": "0x5be66107e1f0",
+        "x": 0,
+        "y": 96,
+        "w": 1280,
+        "h": 44,
+        "alpha": 1,
+        "namespace": "iced-shell-bar@eDP-1",
+        "pid": 61898,
+        "output": "eDP-1",
+        "level": 2
+      },
+      {
+        "address": "0x5be6610b6fb0",
+        "x": 1280,
+        "y": 0,
+        "w": 2560,
+        "h": 44,
+        "alpha": 1,
+        "namespace": "iced-shell-bar@DP-3",
+        "pid": 61898,
+        "output": "DP-3",
+        "level": 2
+      },
+      {
+        "address": "0x5be660f8d170",
+        "x": 2280,
+        "y": 547,
+        "w": 560,
+        "h": 390,
+        "alpha": 1,
+        "namespace": "iced-shell-launcher@DP-3",
+        "pid": 61898,
+        "output": "DP-3",
+        "level": 3
+      }
+    ]
+  }
+]

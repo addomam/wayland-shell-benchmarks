@@ -1,0 +1,14 @@
+# started on Thu Sep 24 14:36:37 2026
+
+
+ Performance counter stats for process id '62487':
+
+            112.75 msec task-clock:u                                                          
+                 0      context-switches:u                                                    
+                 0      cpu-migrations:u                                                      
+                 3      page-faults:u                                                         
+          69973797      cycles:u                                                              
+          29156447      instructions:u                                                        
+
+      30.003953305 seconds time elapsed
+

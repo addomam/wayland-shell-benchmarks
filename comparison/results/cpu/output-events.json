@@ -1,0 +1,69 @@
+{
+  "create_reply": "ok",
+  "added_layers": [
+    {
+      "address": "0x5be660e88630",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 44,
+      "alpha": 1,
+      "namespace": "iced-shell-bar@eDP-1",
+      "pid": 61241,
+      "output": "eDP-1",
+      "level": 2
+    },
+    {
+      "address": "0x5be660fa7490",
+      "x": 1280,
+      "y": 191,
+      "w": 2560,
+      "h": 44,
+      "alpha": 1,
+      "namespace": "iced-shell-bar@DP-3",
+      "pid": 61241,
+      "output": "DP-3",
+      "level": 2
+    },
+    {
+      "address": "0x5be660f8d170",
+      "x": 3840,
+      "y": 0,
+      "w": 960,
+      "h": 44,
+      "alpha": 1,
+      "namespace": "iced-shell-bar@HEADLESS-1",
+      "pid": 61241,
+      "output": "HEADLESS-1",
+      "level": 2
+    }
+  ],
+  "remove_reply": "ok",
+  "removed_layers": [
+    {
+      "address": "0x5be660e88630",
+      "x": 0,
+      "y": 96,
+      "w": 1280,
+      "h": 44,
+      "alpha": 1,
+      "namespace": "iced-shell-bar@eDP-1",
+      "pid": 61241,
+      "output": "eDP-1",
+      "level": 2
+    },
+    {
+      "address": "0x5be660fa7490",
+      "x": 1280,
+      "y": 0,
+      "w": 2560,
+      "h": 44,
+      "alpha": 1,
+      "namespace": "iced-shell-bar@DP-3",
+      "pid": 61241,
+      "output": "DP-3",
+      "level": 2
+    }
+  ],
+  "passed": true
+}

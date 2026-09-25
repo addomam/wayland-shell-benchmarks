@@ -1,0 +1,8 @@
+{
+  "surfaces": [
+    {"id":"bar","page":"pages/bar.json","layer":"top","anchors":["top","left","right"],"height":44,"exclusiveZone":44,"output":"*"},
+    {"id":"launcher","page":"pages/launcher.json","layer":"overlay","width":560,"height":390,"keyboardInteractivity":"exclusive","output":"*","visible":false},
+    {"id":"menu","page":"pages/menu.json","layer":"overlay","anchors":["top","left"],"width":320,"height":240,"margins":{"left":12},"keyboardInteractivity":"on-demand","output":"*","visible":false},
+    {"id":"input-test","page":"pages/input-test.json","layer":"overlay","width":620,"height":360,"keyboardInteractivity":"on-demand","output":"*","visible":false}
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "checks": {
+    "interactions": {
+      "name": "iced",
+      "pointer_launcher_ms": [
+        {
+          "output": "eDP-1",
+          "ms": 36.47082699899329
+        },
+        {
+          "output": "eDP-1",
+          "ms": 36.34164899995085
+        },
+        {
+          "output": "eDP-1",
+          "ms": 26.399465001304634
+        },
+        {
+          "output": "DP-3",
+          "ms": 12.934968006447889
+        },
+        {
+          "output": "DP-3",
+          "ms": 26.873253998928703
+        },
+        {
+          "output": "DP-3",
+          "ms": 25.911675998941064
+        }
+      ],
+      "input_regions": [
+        {
+          "output": "eDP-1",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        },
+        {
+          "output": "DP-3",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        }
+      ],
+      "workspace_control_ipc_ms": 10.87685100355884,
+      "workspace_log_evidence": [
+        "WORKSPACES current=Some(1)",
+        "WORKSPACES current=Some(3)",
+        "WORKSPACES current=Some(99)"
+      ]
+    },
+    "keyboard": {
+      "name": "iced",
+      "filter_screenshot": "comparison/results/keyboard-iced.png",
+      "escape_closes": true,
+      "workspace_pointer_ipc_ms": 7.723647999227978,
+      "workspace_click_offset": 160
+    },
+    "frontend": {
+      "name": "iced",
+      "host_pid_retained": true,
+      "native_addresses_before": {
+        "iced-shell-bar@eDP-1": "0x5be6610ea470",
+        "iced-shell-bar@DP-3": "0x5be65f878b60"
+      },
+      "native_addresses_after": {
+        "iced-shell-bar@eDP-1": "0x5be6610ea470",
+        "iced-shell-bar@DP-3": "0x5be65f878b60"
+      },
+      "native_addresses_retained": true,
+      "marker": "CONTENT"
+    }
+  },
+  "errors": []
+}

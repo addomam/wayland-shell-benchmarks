@@ -1,0 +1,14 @@
+# started on Thu Sep 24 14:08:07 2026
+
+
+ Performance counter stats for process id '52570':
+
+            718.75 msec task-clock:u                                                          
+                 0      context-switches:u                                                    
+                 0      cpu-migrations:u                                                      
+                 1      page-faults:u                                                         
+         431776773      cycles:u                                                              
+         151167198      instructions:u                                                        
+
+      30.004688158 seconds time elapsed
+

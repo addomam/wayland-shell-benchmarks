@@ -1,0 +1,125 @@
+--- iced_exwlshell-0.20.1/Cargo.toml
++++ vendor/iced_exwlshell/Cargo.toml
+@@ -125,3 +125,6 @@
+ 
+ [dev-dependencies.wayland-client]
+ version = "0.31.15"
++
++[dependencies.shell-diagnostics]
++path = "../../diagnostics"
+--- iced_exwlshell-0.20.1/src/multi_window.rs
++++ vendor/iced_exwlshell/src/multi_window.rs
+@@ -413,7 +413,7 @@
+         match layer_shell_event {
+             IcedWlShellEvent::UpdateInputRegion(region) => self.wl_input_region = Some(region),
+             IcedWlShellEvent::Window(ExwlShellWindowEvent::Refresh) => {
+-                self.handle_refresh_event(ev, layer_shell_id)
++                { shell_diagnostics::inc(15); self.handle_refresh_event(ev, layer_shell_id) }
+             }
+             IcedWlShellEvent::Window(ExwlShellWindowEvent::Closed) => {
+                 self.handle_closed_event(ev, layer_shell_id)
+@@ -461,6 +461,7 @@
+                     || window_size.height != height
+                     || window.state.wayland_scale_factor() != scale_float
+                 {
++                    shell_diagnostics::inc(3);
+                     let layout_span = iced_debug::layout(iced_id);
+                     window.state.update_view_port(width, height, scale_float);
+                     if let Some(ui) = self.user_interfaces.ui_mut(&iced_id) {
+@@ -636,6 +637,7 @@
+                 });
+         }
+ 
++        shell_diagnostics::inc(16);
+         ui.draw(
+             &mut window.renderer,
+             window.state.theme(),
+@@ -654,6 +656,7 @@
+         window.draw_preedit();
+ 
+         let present_span = iced_debug::present(iced_id);
++        shell_diagnostics::inc(5);
+         match compositor.present(
+             &mut window.renderer,
+             &mut window.surface,
+@@ -664,6 +667,7 @@
+             },
+         ) {
+             Ok(()) => {
++                shell_diagnostics::inc(6);
+                 present_span.finish();
+             }
+             Err(error) => {
+--- iced_exwlshell-0.20.1/src/redraw.rs
++++ vendor/iced_exwlshell/src/redraw.rs
+@@ -1,10 +1,11 @@
+ use iced_core::window::Id;
+ use std::fmt::Debug;
+ 
+-#[derive(Debug, Clone, Copy, PartialEq, Eq)]
++#[derive(Debug, Clone, PartialEq, Eq)]
+ pub enum Scope {
+     None,
+     Window(Id),
++    Windows(Vec<Id>),
+     All,
+ }
+ 
+@@ -48,38 +49,20 @@
+             return Targets::All;
+         };
+ 
+-        let mut first_window = None;
+-        let mut messages = messages.iter();
+-        let mut windows = None;
+-
+-        for message in messages.by_ref() {
++        let mut windows = Vec::new();
++        for message in messages {
+             match scope(message) {
+                 Scope::All => return Targets::All,
+-                Scope::None => {}
+-                Scope::Window(id) => match first_window {
+-                    None => first_window = Some(id),
+-                    Some(current) if current == id => {}
+-                    Some(current) => {
+-                        windows = Some(vec![current, id]);
+-                        break;
+-                    }
+-                },
++                Scope::None => {},
++                Scope::Window(id) => { if !windows.contains(&id) { windows.push(id); } },
++                Scope::Windows(ids) => for id in ids { if !windows.contains(&id) { windows.push(id); } },
+             }
+         }
+-
+-        if let Some(mut windows) = windows {
+-            for message in messages {
+-                match scope(message) {
+-                    Scope::Window(id) if !windows.contains(&id) => windows.push(id),
+-                    Scope::All => return Targets::All,
+-                    Scope::Window(_) | Scope::None => {}
+-                }
+-            }
+-
+-            return Targets::Windows(windows);
++        match windows.len() {
++            0 => Targets::None,
++            1 => Targets::Window(windows[0]),
++            _ => Targets::Windows(windows),
+         }
+-
+-        first_window.map_or(Targets::None, Targets::Window)
+     }
+ }
+ 
+--- iced_exwlshell-0.20.1/src/user_interface.rs
++++ vendor/iced_exwlshell/src/user_interface.rs
+@@ -140,6 +140,7 @@
+         let view = self.application.view(id);
+         view_span.finish();
+ 
++        shell_diagnostics::inc(3);
+         let layout_span = iced_debug::layout(id);
+         let ui = IcedUserInterface::build(view, size, cache, renderer);
+         layout_span.finish();

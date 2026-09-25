@@ -1,0 +1,5 @@
+WORKSPACES current=Some(1)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+READY bar@eDP-1
+READY bar@DP-3

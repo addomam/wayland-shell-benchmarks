@@ -1,0 +1,8 @@
+{
+  "surfaces": [
+    {"id":"bar","page":"pages/Bar.qml","layer":"top","anchors":["top","left","right"],"height":44,"exclusiveZone":44,"output":"*"},
+    {"id":"launcher","page":"pages/Launcher.qml","layer":"overlay","width":560,"height":390,"keyboardInteractivity":"exclusive","output":"*","visible":false},
+    {"id":"menu","page":"pages/Menu.qml","layer":"overlay","anchors":["top","left"],"width":320,"height":240,"margins":{"left":12},"keyboardInteractivity":"on-demand","output":"*","visible":false},
+    {"id":"input-test","page":"pages/InputTest.qml","layer":"overlay","width":620,"height":360,"keyboardInteractivity":"on-demand","output":"*","visible":false}
+  ]
+}

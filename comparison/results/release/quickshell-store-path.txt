@@ -1,0 +1,1 @@
+/nix/store/h0agc7jqz21v9ci1yzd74390p58vfvh2-quickshell-0.3.0

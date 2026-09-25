@@ -1,0 +1,290 @@
+{
+  "web": {
+    "startup_layer_ms": {
+      "n": 5,
+      "median": 388.9228260013624,
+      "p95_nearest_rank": 408.6249579995638,
+      "min": 376.5085160048329,
+      "max": 408.6249579995638
+    },
+    "launcher_control_layer_ms": {
+      "n": 5,
+      "median": 75.38819599722046,
+      "p95_nearest_rank": 76.76867699774448,
+      "min": 65.75836899719434,
+      "max": 76.76867699774448
+    },
+    "idle_median_pss_mib": {
+      "n": 5,
+      "median": 439.591796875,
+      "p95_nearest_rank": 439.8359375,
+      "min": 439.337890625,
+      "max": 439.8359375
+    },
+    "idle_median_rss_mib": {
+      "n": 5,
+      "median": 1695.90625,
+      "p95_nearest_rank": 1696.45703125,
+      "min": 1694.765625,
+      "max": 1696.45703125
+    },
+    "idle_cpu_percent_one_core": {
+      "n": 5,
+      "median": 4.567045556055025,
+      "p95_nearest_rank": 4.769502183698185,
+      "min": 3.9969052678121306,
+      "max": 4.769502183698185
+    },
+    "idle_host_busy_percent": {
+      "n": 5,
+      "median": 6.196581196581197,
+      "p95_nearest_rank": 6.759631292838575,
+      "min": 5.84477046852816,
+      "max": 6.759631292838575
+    },
+    "idle_processes": {
+      "n": 85,
+      "median": 50,
+      "p95_nearest_rank": 50,
+      "min": 50,
+      "max": 50
+    },
+    "idle_memory_errors": [],
+    "active_median_pss_mib": {
+      "n": 5,
+      "median": 511.013671875,
+      "p95_nearest_rank": 511.6748046875,
+      "min": 510.7421875,
+      "max": 511.6748046875
+    },
+    "active_median_rss_mib": {
+      "n": 5,
+      "median": 1817.013671875,
+      "p95_nearest_rank": 1817.08203125,
+      "min": 1815.51953125,
+      "max": 1817.08203125
+    },
+    "active_cpu_percent_one_core": {
+      "n": 5,
+      "median": 17.932953186375546,
+      "p95_nearest_rank": 18.164447435436383,
+      "min": 17.196298273249965,
+      "max": 18.164447435436383
+    },
+    "active_host_busy_percent": {
+      "n": 5,
+      "median": 8.601398601398602,
+      "p95_nearest_rank": 9.052787370498272,
+      "min": 8.186046511627909,
+      "max": 9.052787370498272
+    },
+    "active_processes": {
+      "n": 82,
+      "median": 50.0,
+      "p95_nearest_rank": 50,
+      "min": 50,
+      "max": 50
+    },
+    "active_memory_errors": [],
+    "pointer_launcher_ms": {
+      "n": 6,
+      "median": 16.68178249747143,
+      "p95_nearest_rank": 36.079921999771614,
+      "min": 15.099062002263963,
+      "max": 36.079921999771614
+    },
+    "workspace_control_ipc_ms_single_sample": 41.77291999803856
+  },
+  "iced": {
+    "startup_layer_ms": {
+      "n": 5,
+      "median": 115.86965899914503,
+      "p95_nearest_rank": 126.328034006292,
+      "min": 105.88969600212295,
+      "max": 126.328034006292
+    },
+    "launcher_control_layer_ms": {
+      "n": 5,
+      "median": 76.0855220069061,
+      "p95_nearest_rank": 97.17127800104208,
+      "min": 53.720399002486374,
+      "max": 97.17127800104208
+    },
+    "idle_median_pss_mib": {
+      "n": 5,
+      "median": 40.5654296875,
+      "p95_nearest_rank": 40.6025390625,
+      "min": 39.3935546875,
+      "max": 40.6025390625
+    },
+    "idle_median_rss_mib": {
+      "n": 5,
+      "median": 68.60546875,
+      "p95_nearest_rank": 68.671875,
+      "min": 67.4453125,
+      "max": 68.671875
+    },
+    "idle_cpu_percent_one_core": {
+      "n": 5,
+      "median": 2.1109467727970115,
+      "p95_nearest_rank": 2.1213256211338654,
+      "min": 1.921358913769834,
+      "max": 2.1213256211338654
+    },
+    "idle_host_busy_percent": {
+      "n": 5,
+      "median": 4.824456651540487,
+      "p95_nearest_rank": 5.096451536080016,
+      "min": 4.744787922358018,
+      "max": 5.096451536080016
+    },
+    "idle_processes": {
+      "n": 95,
+      "median": 1,
+      "p95_nearest_rank": 1,
+      "min": 1,
+      "max": 1
+    },
+    "idle_memory_errors": [],
+    "active_median_pss_mib": {
+      "n": 5,
+      "median": 44.45703125,
+      "p95_nearest_rank": 45.4951171875,
+      "min": 43.2705078125,
+      "max": 45.4951171875
+    },
+    "active_median_rss_mib": {
+      "n": 5,
+      "median": 72.51171875,
+      "p95_nearest_rank": 73.59375,
+      "min": 71.34375,
+      "max": 73.59375
+    },
+    "active_cpu_percent_one_core": {
+      "n": 5,
+      "median": 5.190082188059563,
+      "p95_nearest_rank": 5.209398568917365,
+      "min": 4.992484058150483,
+      "max": 5.209398568917365
+    },
+    "active_host_busy_percent": {
+      "n": 5,
+      "median": 5.808140918828853,
+      "p95_nearest_rank": 6.3218390804597675,
+      "min": 5.39765942202054,
+      "max": 6.3218390804597675
+    },
+    "active_processes": {
+      "n": 95,
+      "median": 1,
+      "p95_nearest_rank": 1,
+      "min": 1,
+      "max": 1
+    },
+    "active_memory_errors": [],
+    "pointer_launcher_ms": {
+      "n": 6,
+      "median": 26.446362004207913,
+      "p95_nearest_rank": 36.909988994011655,
+      "min": 13.062138001259882,
+      "max": 36.909988994011655
+    },
+    "workspace_control_ipc_ms_single_sample": 115.09876600030111
+  },
+  "quickshell": {
+    "startup_layer_ms": {
+      "n": 5,
+      "median": 166.20470199995907,
+      "p95_nearest_rank": 167.6834219979355,
+      "min": 156.1445810002624,
+      "max": 167.6834219979355
+    },
+    "launcher_control_layer_ms": {
+      "n": 5,
+      "median": 85.43264499894576,
+      "p95_nearest_rank": 202.1164530015085,
+      "min": 74.73167800344527,
+      "max": 202.1164530015085
+    },
+    "idle_median_pss_mib": {
+      "n": 5,
+      "median": 93.078125,
+      "p95_nearest_rank": 93.810546875,
+      "min": 92.9462890625,
+      "max": 93.810546875
+    },
+    "idle_median_rss_mib": {
+      "n": 5,
+      "median": 130.6953125,
+      "p95_nearest_rank": 131.55859375,
+      "min": 130.62890625,
+      "max": 131.55859375
+    },
+    "idle_cpu_percent_one_core": {
+      "n": 5,
+      "median": 0.9653215550423768,
+      "p95_nearest_rank": 0.9665923778942842,
+      "min": 0.7703013040597841,
+      "max": 0.9665923778942842
+    },
+    "idle_host_busy_percent": {
+      "n": 5,
+      "median": 4.777911164465786,
+      "p95_nearest_rank": 5.715646582519652,
+      "min": 4.353054353054353,
+      "max": 5.715646582519652
+    },
+    "idle_processes": {
+      "n": 95,
+      "median": 1,
+      "p95_nearest_rank": 1,
+      "min": 1,
+      "max": 1
+    },
+    "idle_memory_errors": [],
+    "active_median_pss_mib": {
+      "n": 5,
+      "median": 122.7021484375,
+      "p95_nearest_rank": 122.9697265625,
+      "min": 121.7333984375,
+      "max": 122.9697265625
+    },
+    "active_median_rss_mib": {
+      "n": 5,
+      "median": 162.125,
+      "p95_nearest_rank": 162.38671875,
+      "min": 161.2265625,
+      "max": 162.38671875
+    },
+    "active_cpu_percent_one_core": {
+      "n": 5,
+      "median": 1.528755343195304,
+      "p95_nearest_rank": 1.537670206651956,
+      "min": 1.3407238244241906,
+      "max": 1.537670206651956
+    },
+    "active_host_busy_percent": {
+      "n": 5,
+      "median": 4.541108986615683,
+      "p95_nearest_rank": 5.936832106388035,
+      "min": 4.331179708064125,
+      "max": 5.936832106388035
+    },
+    "active_processes": {
+      "n": 95,
+      "median": 1,
+      "p95_nearest_rank": 1,
+      "min": 1,
+      "max": 1
+    },
+    "active_memory_errors": [],
+    "pointer_launcher_ms": {
+      "n": 6,
+      "median": 36.34385499753989,
+      "p95_nearest_rank": 36.99784199852729,
+      "min": 35.90996099956101,
+      "max": 36.99784199852729
+    },
+    "workspace_control_ipc_ms_single_sample": 42.69404099613894
+  }
+}

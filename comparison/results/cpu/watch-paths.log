@@ -1,0 +1,23 @@
+WORKSPACES current=Some(1)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+READY bar@DP-3
+READY bar@eDP-1
+CONFIG applied
+CONTENT bar@DP-3
+CONTENT bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CONTENT bar@DP-3
+CONTENT bar@eDP-1
+CONTENT reloaded
+READY bar@DP-3
+READY bar@eDP-1
+PAGE_ERROR EOF while parsing an object at line 1 column 1
+PAGE_ERROR EOF while parsing an object at line 1 column 1
+CONTENT reloaded
+CONTENT bar@DP-3
+CONTENT bar@eDP-1
+CONTENT reloaded
+READY bar@DP-3
+READY bar@eDP-1

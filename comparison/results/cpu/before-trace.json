@@ -1,0 +1,68 @@
+{
+  "start": 1790279044.2750914,
+  "end": 1790279074.2751942,
+  "syscall_entries": {
+    "write": 600,
+    "read": 3380,
+    "futex": 5272,
+    "epoll_ctl": 4528,
+    "openat": 458,
+    "statx": 458,
+    "close": 2887,
+    "ioctl": 16800,
+    "sendmsg": 602,
+    "recvmsg": 2301,
+    "timerfd_settime": 2264,
+    "epoll_pwait": 2264,
+    "socket": 29,
+    "connect": 29,
+    "setsockopt": 29,
+    "sendto": 29,
+    "recvfrom": 261,
+    "readlink": 696
+  },
+  "threads": {
+    "62982": {
+      "write": 194,
+      "futex": 704
+    },
+    "62974": {
+      "read": 2246,
+      "epoll_ctl": 2260,
+      "openat": 458,
+      "statx": 458,
+      "close": 2887,
+      "futex": 2017,
+      "write": 200,
+      "ioctl": 16800,
+      "sendmsg": 400,
+      "timerfd_settime": 1130,
+      "epoll_pwait": 1130,
+      "socket": 29,
+      "connect": 29,
+      "setsockopt": 29,
+      "sendto": 29,
+      "recvfrom": 261,
+      "readlink": 696,
+      "recvmsg": 507
+    },
+    "62980": {
+      "futex": 635,
+      "write": 118
+    },
+    "62979": {
+      "futex": 637,
+      "write": 88
+    },
+    "62986": {
+      "read": 1134,
+      "epoll_ctl": 2268,
+      "recvmsg": 1794,
+      "sendmsg": 202,
+      "timerfd_settime": 1134,
+      "epoll_pwait": 1134,
+      "futex": 1279
+    }
+  },
+  "note": "Entries begun in settled 30-second window; blocked calls begun before it are absent. Tracing perturbs timings; not used for CPU benchmark."
+}

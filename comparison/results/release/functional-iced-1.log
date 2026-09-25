@@ -1,0 +1,57 @@
+WORKSPACES current=Some(1)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+READY bar@eDP-1
+READY bar@DP-3
+CONFIG applied
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CONFIG_ERROR EOF while parsing an object at line 1 column 1
+CONTENT reloaded
+CONFIG applied
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CONFIG applied
+CREATE notes@DP-3
+CREATE notes@eDP-1
+READY notes@DP-3
+READY notes@eDP-1
+CONFIG applied
+CONTENT notes@DP-3
+CONTENT notes@eDP-1
+READY notes@DP-3
+READY notes@eDP-1
+CONFIG applied
+DESTROY notes@DP-3
+DESTROY notes@eDP-1
+DESTROY bar@DP-3
+CREATE bar@DP-3
+DESTROY bar@eDP-1
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+TOGGLE launcher@DP-3 hidden
+CREATE menu@DP-3
+TOGGLE menu@DP-3 shown
+READY menu@DP-3
+DESTROY menu@DP-3
+TOGGLE menu@DP-3 hidden
+CREATE input-test@DP-3
+TOGGLE input-test@DP-3 shown
+READY input-test@DP-3
+INPUT input-test@DP-3 185,100,250,160 size=620x360
+DESTROY input-test@DP-3
+TOGGLE input-test@DP-3 hidden
+CONTENT reloaded

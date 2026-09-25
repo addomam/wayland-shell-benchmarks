@@ -1,0 +1,196 @@
+{
+  "monitors": [
+    {
+      "id": 0,
+      "name": "eDP-1",
+      "description": "Apple Computer Inc Color LCD",
+      "make": "Apple Computer Inc",
+      "model": "Color LCD",
+      "serial": "",
+      "width": 2560,
+      "height": 1600,
+      "physicalWidth": 290,
+      "physicalHeight": 180,
+      "refreshRate": 60.001,
+      "x": 0,
+      "y": 0,
+      "activeWorkspace": {
+        "id": 1,
+        "name": "1"
+      },
+      "specialWorkspace": {
+        "id": 0,
+        "name": ""
+      },
+      "reserved": [
+        0,
+        139,
+        0,
+        0
+      ],
+      "scale": 2,
+      "transform": 0,
+      "focused": false,
+      "dpmsStatus": true,
+      "vrr": false,
+      "solitary": "0",
+      "solitaryBlockedBy": [
+        "WINDOWED",
+        "CANDIDATE"
+      ],
+      "activelyTearing": false,
+      "tearingBlockedBy": [
+        "NOT_TORN",
+        "USER",
+        "CANDIDATE",
+        "HW_CURSOR"
+      ],
+      "directScanoutTo": "0",
+      "directScanoutBlockedBy": [
+        "USER",
+        "CANDIDATE"
+      ],
+      "disabled": false,
+      "currentFormat": "XRGB8888",
+      "mirrorOf": "none",
+      "availableModes": [
+        "2560x1600@60.00Hz"
+      ],
+      "colorManagementPreset": "srgb",
+      "sdrBrightness": 1,
+      "sdrSaturation": 1,
+      "sdrMinLuminance": 0.2,
+      "sdrMaxLuminance": 80,
+      "hardwareCursorsInUse": true
+    },
+    {
+      "id": 1,
+      "name": "DP-3",
+      "description": "LG Electronics LG HDR DQHD 0x00058213",
+      "make": "LG Electronics",
+      "model": "LG HDR DQHD",
+      "serial": "0x00058213",
+      "width": 2560,
+      "height": 1440,
+      "physicalWidth": 600,
+      "physicalHeight": 340,
+      "refreshRate": 59.997,
+      "x": 1280,
+      "y": 0,
+      "activeWorkspace": {
+        "id": 3,
+        "name": "3"
+      },
+      "specialWorkspace": {
+        "id": 0,
+        "name": ""
+      },
+      "reserved": [
+        0,
+        44,
+        0,
+        0
+      ],
+      "scale": 1,
+      "transform": 0,
+      "focused": true,
+      "dpmsStatus": true,
+      "vrr": false,
+      "solitary": "0",
+      "solitaryBlockedBy": [
+        "WINDOWED",
+        "CANDIDATE",
+        "CONFIGERROR"
+      ],
+      "activelyTearing": false,
+      "tearingBlockedBy": [
+        "NOT_TORN",
+        "USER",
+        "CANDIDATE",
+        "HW_CURSOR"
+      ],
+      "directScanoutTo": "0",
+      "directScanoutBlockedBy": [
+        "USER",
+        "CANDIDATE"
+      ],
+      "disabled": false,
+      "currentFormat": "XRGB8888",
+      "mirrorOf": "none",
+      "availableModes": [
+        "2560x1440@60.00Hz",
+        "1920x1080@60.00Hz",
+        "1920x1080@60.00Hz",
+        "1920x1080@59.94Hz",
+        "1600x900@60.00Hz",
+        "1280x1024@60.02Hz",
+        "1280x800@59.81Hz",
+        "1152x864@59.97Hz",
+        "1280x720@60.00Hz",
+        "1280x720@60.00Hz",
+        "1280x720@59.94Hz",
+        "1024x768@60.00Hz",
+        "800x600@60.32Hz",
+        "720x480@60.00Hz",
+        "720x480@59.94Hz",
+        "640x480@60.00Hz",
+        "640x480@59.94Hz",
+        "640x480@59.94Hz"
+      ],
+      "colorManagementPreset": "srgb",
+      "sdrBrightness": 1,
+      "sdrSaturation": 1,
+      "sdrMinLuminance": 0.2,
+      "sdrMaxLuminance": 80,
+      "hardwareCursorsInUse": true
+    }
+  ],
+  "hyprland": {
+    "branch": "v0.56.2-b",
+    "commit": "efb50993780079460b0cbed1363e2166a2de1d9f",
+    "version": "0.56.2",
+    "dirty": false,
+    "commit_message": "[gha] Nix: update inputs",
+    "commit_date": "2026-08-05",
+    "tag": "v0.56.2",
+    "commits": "-1",
+    "buildAquamarine": "0.15.1",
+    "buildHyprlang": "0.6.8",
+    "buildHyprutils": "0.14.2",
+    "buildHyprcursor": "0.1.13",
+    "buildHyprgraphics": "0.5.1",
+    "systemAquamarine": "unknown",
+    "systemHyprlang": "unknown",
+    "systemHyprutils": "unknown",
+    "systemHyprcursor": "unknown",
+    "systemHyprgraphics": "unknown",
+    "abiHash": "efb50993780079460b0cbed1363e2166a2de1d9f_aq_0.15_hu_0.14_hg_0.5_hc_0.1_hlg_0.6",
+    "flags": [
+      "nix"
+    ]
+  },
+  "cursor": {
+    "x": 1280,
+    "y": 800
+  },
+  "kernel": "7.2.7",
+  "perf_event_paranoid": "2",
+  "ptrace_scope": "1",
+  "environment": {
+    "XDG_SESSION_TYPE": "wayland",
+    "WAYLAND_DISPLAY": "wayland-1",
+    "WGPU_BACKEND": null,
+    "ICED_PRESENT_MODE": null,
+    "QSG_RHI_BACKEND": null
+  },
+  "governors": {
+    "/sys/devices/system/cpu/cpu7/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu5/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu3/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu1/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu6/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu4/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu2/cpufreq/scaling_governor": "powersave",
+    "/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor": "powersave"
+  }
+}

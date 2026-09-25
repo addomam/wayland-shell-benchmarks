@@ -1,0 +1,50 @@
+CREATE bar@DP-3
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CREATE launcher@eDP-1
+TOGGLE launcher@eDP-1 shown
+READY launcher@eDP-1
+DESTROY launcher@eDP-1
+CREATE launcher@eDP-1
+TOGGLE launcher@eDP-1 shown
+READY launcher@eDP-1
+DESTROY launcher@eDP-1
+CREATE launcher@eDP-1
+TOGGLE launcher@eDP-1 shown
+READY launcher@eDP-1
+DESTROY launcher@eDP-1
+WORKSPACES current=Some(3)
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+WORKSPACES current=Some(99)
+WORKSPACES current=Some(1)
+CREATE input-test@eDP-1
+CONFIG applied
+READY input-test@eDP-1
+INPUT input-test@eDP-1 515,100,250,160 size=1280x360
+CREATE launcher@eDP-1
+TOGGLE launcher@eDP-1 shown
+READY launcher@eDP-1
+DESTROY launcher@eDP-1
+DESTROY input-test@eDP-1
+CREATE input-test@DP-3
+CONFIG applied
+READY input-test@DP-3
+INPUT input-test@DP-3 1155,100,250,160 size=2560x360
+WORKSPACES current=Some(3)
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+DESTROY launcher@DP-3
+DESTROY input-test@DP-3

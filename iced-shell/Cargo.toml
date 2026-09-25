@@ -1,0 +1,25 @@
+[package]
+name = "iced-shell"
+version = "0.1.0"
+edition = "2024"
+[dependencies]
+iced = { version = "=0.14.0", default-features = false, features = ["wgpu", "tokio", "wayland"] }
+iced_exwlshell = { version = "=0.20.1", default-features = false, features = ["macros"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+notify = "=8.2.0"
+tokio = { version = "1", features = ["net", "io-util", "time"] }
+[profile.release]
+strip = true
+
+[patch.crates-io]
+iced_exwlshell = { path = "vendor/iced_exwlshell" }
+exwlshellev = { path = "vendor/exwlshellev" }
+
+[dependencies.shell-diagnostics]
+path = "diagnostics"
+
+[profile.profiling]
+inherits = "release"
+debug = 1
+strip = false

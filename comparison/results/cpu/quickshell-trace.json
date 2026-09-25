@@ -1,0 +1,107 @@
+{
+  "start": 1790279001.420657,
+  "end": 1790279031.420729,
+  "syscall_entries": {
+    "futex": 4015,
+    "newfstatat": 4019,
+    "write": 2152,
+    "access": 400,
+    "statx": 600,
+    "openat": 200,
+    "ppoll": 1537,
+    "read": 1404,
+    "close": 200,
+    "getpid": 240,
+    "ioctl": 1247,
+    "sendmsg": 111,
+    "recvmsg": 216,
+    "poll": 201,
+    "madvise": 49,
+    "mmap": 2,
+    "munmap": 3
+  },
+  "threads": {
+    "62938": {
+      "futex": 863,
+      "newfstatat": 2398,
+      "write": 853,
+      "ppoll": 596,
+      "read": 596,
+      "madvise": 27
+    },
+    "62946": {
+      "newfstatat": 67,
+      "futex": 270,
+      "write": 134,
+      "access": 134,
+      "statx": 201,
+      "openat": 67,
+      "read": 67,
+      "close": 67
+    },
+    "62937": {
+      "read": 608,
+      "futex": 979,
+      "newfstatat": 1420,
+      "write": 683,
+      "ppoll": 881,
+      "sendmsg": 41,
+      "madvise": 2
+    },
+    "62945": {
+      "futex": 285,
+      "newfstatat": 67,
+      "write": 134,
+      "access": 134,
+      "statx": 201,
+      "openat": 67,
+      "read": 67,
+      "close": 67
+    },
+    "62947": {
+      "futex": 281,
+      "newfstatat": 67,
+      "write": 133,
+      "access": 132,
+      "statx": 198,
+      "openat": 66,
+      "read": 66,
+      "close": 66
+    },
+    "62952": {
+      "futex": 340,
+      "getpid": 120,
+      "ioctl": 685,
+      "write": 30,
+      "sendmsg": 30,
+      "ppoll": 30,
+      "mmap": 1,
+      "munmap": 2
+    },
+    "62964": {
+      "futex": 416,
+      "getpid": 120,
+      "ioctl": 562,
+      "write": 30,
+      "sendmsg": 29,
+      "ppoll": 30,
+      "mmap": 1,
+      "munmap": 1,
+      "madvise": 20
+    },
+    "62941": {
+      "futex": 262,
+      "write": 60,
+      "poll": 106,
+      "recvmsg": 53,
+      "sendmsg": 11
+    },
+    "62940": {
+      "recvmsg": 163,
+      "futex": 319,
+      "write": 95,
+      "poll": 95
+    }
+  },
+  "note": "Entries begun in settled 30-second window; blocked calls begun before it are absent. Tracing perturbs timings; not used for CPU benchmark."
+}

@@ -1,0 +1,78 @@
+WORKSPACES current=Some(3)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+RENDERER Settings {
+    present_mode: AutoVsync,
+    backends: Backends(
+        NOOP | VULKAN | GL | METAL | DX12 | BROWSER_WEBGPU,
+    ),
+    default_font: Font {
+        family: SansSerif,
+        weight: Normal,
+        stretch: Normal,
+        style: Normal,
+    },
+    default_text_size: Pixels(
+        16.0,
+    ),
+    antialiasing: None,
+}
+RENDERER Available adapters: [
+    AdapterInfo {
+        name: "Intel(R) Iris(R) Plus Graphics (ICL GT2)",
+        vendor: 32902,
+        device: 35411,
+        device_type: IntegratedGpu,
+        driver: "Intel open-source Mesa driver",
+        driver_info: "Mesa 26.2.3",
+        backend: Vulkan,
+    },
+    AdapterInfo {
+        name: "llvmpipe (LLVM 21.1.8, 256 bits)",
+        vendor: 65541,
+        device: 0,
+        device_type: Cpu,
+        driver: "llvmpipe",
+        driver_info: "Mesa 26.2.3 (LLVM 21.1.8)",
+        backend: Vulkan,
+    },
+]
+RENDERER Selected: AdapterInfo {
+    name: "Intel(R) Iris(R) Plus Graphics (ICL GT2)",
+    vendor: 32902,
+    device: 35411,
+    device_type: IntegratedGpu,
+    driver: "Intel open-source Mesa driver",
+    driver_info: "Mesa 26.2.3",
+    backend: Vulkan,
+}
+RENDERER Available formats: Copied {
+    it: Iter(
+        [
+            Bgra8UnormSrgb,
+            Rgba8UnormSrgb,
+            Rgba16Unorm,
+            Rgb10a2Unorm,
+            Bgra8Unorm,
+            Rgba8Unorm,
+            Rgba16Float,
+        ],
+    ),
+}
+RENDERER Available alpha modes: [
+    Opaque,
+    PreMultiplied,
+]
+RENDERER Selected format: Bgra8UnormSrgb with alpha mode: PreMultiplied
+READY bar@eDP-1
+READY bar@DP-3
+CONFIG applied
+CREATE launcher@DP-3
+CREATE launcher@eDP-1
+READY launcher@DP-3
+READY launcher@eDP-1
+DIAGNOSTICS {"seconds":10.000081,"wakeups":101,"messages":8,"views":12,"layouts":12,"redraw_requests":47,"renders":31,"presents":31,"hypr_queries":2,"hypr_events":4,"outputs":2,"config_checks":1,"config_reloads":1,"clock_fires":0,"pointer":3,"keyboard":4,"refresh_callbacks":31,"draws":31}
+DIAGNOSTICS {"seconds":10.000255,"wakeups":80,"messages":0,"views":0,"layouts":0,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":0,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000152,"wakeups":80,"messages":0,"views":0,"layouts":0,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":0,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000182,"wakeups":80,"messages":0,"views":0,"layouts":0,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":0,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000210,"wakeups":80,"messages":0,"views":0,"layouts":0,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":0,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}

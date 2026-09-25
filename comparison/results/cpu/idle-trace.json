@@ -1,0 +1,56 @@
+{
+  "start": 1790278958.739831,
+  "end": 1790278988.7399347,
+  "syscall_entries": {
+    "epoll_wait": 148,
+    "write": 142,
+    "read": 390,
+    "futex": 615,
+    "epoll_ctl": 660,
+    "ioctl": 2520,
+    "close": 360,
+    "sendmsg": 94,
+    "recvmsg": 343,
+    "timerfd_settime": 330,
+    "epoll_pwait": 330
+  },
+  "threads": {
+    "62904": {
+      "epoll_wait": 59,
+      "write": 40,
+      "futex": 75
+    },
+    "62900": {
+      "read": 220,
+      "epoll_ctl": 320,
+      "write": 50,
+      "futex": 262,
+      "ioctl": 2520,
+      "close": 360,
+      "sendmsg": 60,
+      "timerfd_settime": 160,
+      "epoll_pwait": 160,
+      "recvmsg": 81
+    },
+    "62905": {
+      "epoll_wait": 78,
+      "futex": 60,
+      "write": 42
+    },
+    "62912": {
+      "read": 170,
+      "epoll_ctl": 340,
+      "recvmsg": 262,
+      "sendmsg": 34,
+      "timerfd_settime": 170,
+      "epoll_pwait": 170,
+      "futex": 189
+    },
+    "62903": {
+      "futex": 29,
+      "epoll_wait": 11,
+      "write": 10
+    }
+  },
+  "note": "Entries begun in settled 30-second window; blocked calls begun before it are absent. Tracing perturbs timings; not used for CPU benchmark."
+}

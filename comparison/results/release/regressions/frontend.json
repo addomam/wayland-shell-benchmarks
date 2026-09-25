@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "name": "web",
+      "host_pid_retained": true,
+      "native_addresses_before": {
+        "webshell-bar@eDP-1": "0x5be660896150",
+        "webshell-bar@DP-3": "0x5be6608ece50"
+      },
+      "native_addresses_after": {
+        "webshell-bar@eDP-1": "0x5be660896150",
+        "webshell-bar@DP-3": "0x5be6608ece50"
+      },
+      "native_addresses_retained": true,
+      "marker": "ASSET_RELOAD"
+    },
+    {
+      "name": "iced",
+      "host_pid_retained": true,
+      "native_addresses_before": {
+        "iced-shell-bar@eDP-1": "0x5be66100b7a0",
+        "iced-shell-bar@DP-3": "0x5be66044da10"
+      },
+      "native_addresses_after": {
+        "iced-shell-bar@eDP-1": "0x5be66100b7a0",
+        "iced-shell-bar@DP-3": "0x5be66044da10"
+      },
+      "native_addresses_retained": true,
+      "marker": "CONTENT"
+    },
+    {
+      "name": "quickshell",
+      "host_pid_retained": true,
+      "native_addresses_before": {
+        "qs-shell-bar@eDP-1": "0x5be660ea9a40",
+        "qs-shell-bar@DP-3": "0x5be660fa7490"
+      },
+      "native_addresses_after": {
+        "qs-shell-bar@eDP-1": "0x5be6610ef480",
+        "qs-shell-bar@DP-3": "0x5be66109ceb0"
+      },
+      "native_addresses_retained": false,
+      "marker": "Reloading configuration"
+    },
+    {
+      "name": "web-vite",
+      "computed_css_changed": true,
+      "native_addresses_retained": true
+    }
+  ],
+  "errors": []
+}

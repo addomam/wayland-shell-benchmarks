@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "keyboard": {
+      "name": "iced",
+      "filter_screenshot": "comparison/results/keyboard-iced.png",
+      "escape_closes": true,
+      "workspace_pointer_ipc_ms": 41.18239600211382,
+      "workspace_click_offset": 160
+    },
+    "frontend": {
+      "name": "iced",
+      "host_pid_retained": true,
+      "native_addresses_before": {
+        "iced-shell-bar@eDP-1": "0x5be660e88630",
+        "iced-shell-bar@DP-3": "0x5be660f4b480"
+      },
+      "native_addresses_after": {
+        "iced-shell-bar@eDP-1": "0x5be660e88630",
+        "iced-shell-bar@DP-3": "0x5be660f4b480"
+      },
+      "native_addresses_retained": true,
+      "marker": "CONTENT"
+    }
+  },
+  "errors": [
+    {
+      "check": "interactions",
+      "error": "iced layer condition timed out; layers=[{'address': '0x5be660fe8a60', 'x': 0, 'y': 0, 'w': 1280, 'h': 44, 'alpha': 1, 'namespace': 'iced-shell-bar@eDP-1', 'pid': 53898, 'output': 'eDP-1', 'level': 2}, {'address': '0x5be660fa7490', 'x': 0, 'y': 0, 'w': 1280, 'h': 360, 'alpha': 1, 'namespace': 'iced-shell-input-test@eDP-1', 'pid': 53898, 'output': 'eDP-1', 'level': 3}, {'address': '0x5be660e88630', 'x': 1280, 'y': 191, 'w': 2560, 'h': 44, 'alpha': 1, 'namespace': 'iced-shell-bar@DP-3', 'pid': 53898, 'output': 'DP-3', 'level': 2}]; log=/home/addomam/Projects/wayland-web-widgets/comparison/results/cpu/interactions.log"
+    }
+  ]
+}

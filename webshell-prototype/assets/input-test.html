@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="shell.js"></script>
+</head>
+<body class="input-test">
+  <section id="hit">
+    <strong>Interactive island</strong>
+    <p>Transparent surroundings have an empty Wayland input region.</p>
+    <button id="close">Close overlay</button>
+  </section>
+  <script>
+    function report() {
+      const r = document.getElementById('hit').getBoundingClientRect();
+      shell.inputRegions.set([{
+        x: Math.round(r.x), y: Math.round(r.y),
+        width: Math.ceil(r.width), height: Math.ceil(r.height)
+      }]);
+    }
+    addEventListener('load', report);
+    addEventListener('resize', report);
+    document.getElementById('hit').addEventListener('click', () => {
+      document.title = 'input-island-clicked';
+    });
+    document.getElementById('close').onclick = () => shell.surfaces.toggle('input-test');
+  </script>
+</body>
+</html>

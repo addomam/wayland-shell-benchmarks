@@ -1,0 +1,19 @@
+{
+  "iced": {
+    "release_build": "passed",
+    "release_unit_tests": 4,
+    "format": "passed",
+    "warnings": "Two preexisting unused imports in vendored adapter"
+  },
+  "web": {
+    "release_build": "passed",
+    "unit_tests": 4,
+    "format": "passed",
+    "npm_ci": "passed"
+  },
+  "quickshell": {
+    "nix_build": "passed",
+    "config_js_tests": "passed"
+  },
+  "git_history": "No Git repository available in workspace or host view"
+}

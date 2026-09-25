@@ -1,0 +1,24 @@
+CREATE bar@DP-3
+CREATE bar@eDP-1
+READY bar@DP-3
+READY bar@eDP-1
+CREATE input-test@DP-3
+CREATE input-test@eDP-1
+CREATE launcher@DP-3
+CREATE launcher@eDP-1
+CREATE menu@DP-3
+CREATE menu@eDP-1
+CONFIG applied
+READY input-test@DP-3
+READY input-test@eDP-1
+READY launcher@DP-3
+READY launcher@eDP-1
+READY menu@DP-3
+READY menu@eDP-1
+INPUT input-test@DP-3 185,100,250,160 size=620x360
+INPUT input-test@eDP-1 185,100,250,160 size=620x360
+DIAGNOSTICS {"seconds":10.000073,"wakeups":633,"messages":76,"views":522,"layouts":522,"redraw_requests":538,"renders":528,"presents":528,"hypr_queries":12,"hypr_events":0,"outputs":10,"config_checks":66,"config_reloads":1,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":528,"draws":528}
+DIAGNOSTICS {"seconds":10.000162,"wakeups":632,"messages":67,"views":536,"layouts":536,"redraw_requests":536,"renders":536,"presents":536,"hypr_queries":10,"hypr_events":0,"outputs":10,"config_checks":67,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":536,"draws":536}
+DIAGNOSTICS {"seconds":10.000163,"wakeups":634,"messages":66,"views":528,"layouts":528,"redraw_requests":528,"renders":528,"presents":528,"hypr_queries":9,"hypr_events":0,"outputs":9,"config_checks":66,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":528,"draws":528}
+DIAGNOSTICS {"seconds":10.000153,"wakeups":634,"messages":67,"views":536,"layouts":536,"redraw_requests":536,"renders":536,"presents":536,"hypr_queries":10,"hypr_events":0,"outputs":10,"config_checks":67,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":536,"draws":536}
+DIAGNOSTICS {"seconds":10.000166,"wakeups":618,"messages":67,"views":536,"layouts":536,"redraw_requests":536,"renders":536,"presents":536,"hypr_queries":9,"hypr_events":0,"outputs":9,"config_checks":67,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":536,"draws":536}

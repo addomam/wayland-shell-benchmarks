@@ -1,0 +1,14 @@
+# started on Thu Sep 24 14:12:01 2026
+
+
+ Performance counter stats for process id '53485':
+
+              0.41 msec task-clock:u                                                          
+                 0      context-switches:u                                                    
+                 0      cpu-migrations:u                                                      
+                 0      page-faults:u                                                         
+            129702      cycles:u                                                              
+             66222      instructions:u                                                        
+
+      30.004235732 seconds time elapsed
+

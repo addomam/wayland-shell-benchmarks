@@ -1,0 +1,61 @@
+WORKSPACES current=Some(3)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+RENDERER Settings {
+    present_mode: AutoVsync,
+    backends: Backends(
+        GL,
+    ),
+    default_font: Font {
+        family: SansSerif,
+        weight: Normal,
+        stretch: Normal,
+        style: Normal,
+    },
+    default_text_size: Pixels(
+        16.0,
+    ),
+    antialiasing: None,
+}
+RENDERER Available adapters: [
+    AdapterInfo {
+        name: "Mesa Intel(R) Iris(R) Plus Graphics (ICL GT2)",
+        vendor: 32902,
+        device: 0,
+        device_type: IntegratedGpu,
+        driver: "",
+        driver_info: "4.6 (Core Profile) Mesa 26.2.3",
+        backend: Gl,
+    },
+]
+RENDERER Selected: AdapterInfo {
+    name: "Mesa Intel(R) Iris(R) Plus Graphics (ICL GT2)",
+    vendor: 32902,
+    device: 0,
+    device_type: IntegratedGpu,
+    driver: "",
+    driver_info: "4.6 (Core Profile) Mesa 26.2.3",
+    backend: Gl,
+}
+RENDERER Available formats: Copied {
+    it: Iter(
+        [
+            Rgba8UnormSrgb,
+            Bgra8UnormSrgb,
+            Rgba8Unorm,
+            Bgra8Unorm,
+            Rgba16Float,
+        ],
+    ),
+}
+RENDERER Available alpha modes: [
+    Opaque,
+]
+RENDERER Selected format: Rgba8UnormSrgb with alpha mode: Auto
+READY bar@eDP-1
+READY bar@DP-3
+DIAGNOSTICS {"seconds":10.000040,"wakeups":59,"messages":15,"views":23,"layouts":23,"redraw_requests":30,"renders":22,"presents":22,"hypr_queries":2,"hypr_events":2,"outputs":2,"config_checks":0,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":22,"draws":22}
+DIAGNOSTICS {"seconds":10.000173,"wakeups":53,"messages":10,"views":20,"layouts":20,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000180,"wakeups":51,"messages":10,"views":20,"layouts":20,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000179,"wakeups":52,"messages":10,"views":20,"layouts":20,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}
+DIAGNOSTICS {"seconds":10.000222,"wakeups":56,"messages":10,"views":20,"layouts":20,"redraw_requests":20,"renders":20,"presents":20,"hypr_queries":0,"hypr_events":0,"outputs":0,"config_checks":0,"config_reloads":0,"clock_fires":10,"pointer":0,"keyboard":0,"refresh_callbacks":20,"draws":20}

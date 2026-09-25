@@ -1,0 +1,7 @@
+{
+  "start": 1790278912.1792758,
+  "end": 1790278942.1793664,
+  "syscall_entries": {},
+  "threads": {},
+  "note": "Entries begun in settled 30-second window; blocked calls begun before it are absent. Tracing perturbs timings; not used for CPU benchmark."
+}

@@ -1,0 +1,583 @@
+{
+  "monitors": [
+    {
+      "id": 0,
+      "name": "eDP-1",
+      "description": "Apple Computer Inc Color LCD",
+      "make": "Apple Computer Inc",
+      "model": "Color LCD",
+      "serial": "",
+      "width": 2560,
+      "height": 1600,
+      "physicalWidth": 290,
+      "physicalHeight": 180,
+      "refreshRate": 60.001,
+      "x": 0,
+      "y": 0,
+      "activeWorkspace": {
+        "id": 1,
+        "name": "1"
+      },
+      "specialWorkspace": {
+        "id": 0,
+        "name": ""
+      },
+      "reserved": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scale": 2,
+      "transform": 0,
+      "focused": true,
+      "dpmsStatus": true,
+      "vrr": false,
+      "solitary": "0",
+      "solitaryBlockedBy": [
+        "WINDOWED",
+        "CANDIDATE",
+        "CONFIGERROR"
+      ],
+      "activelyTearing": false,
+      "tearingBlockedBy": [
+        "NOT_TORN",
+        "USER",
+        "CANDIDATE"
+      ],
+      "directScanoutTo": "0",
+      "directScanoutBlockedBy": [
+        "USER",
+        "CANDIDATE"
+      ],
+      "disabled": false,
+      "currentFormat": "XRGB8888",
+      "mirrorOf": "none",
+      "availableModes": [
+        "2560x1600@60.00Hz"
+      ],
+      "colorManagementPreset": "srgb",
+      "sdrBrightness": 1,
+      "sdrSaturation": 1,
+      "sdrMinLuminance": 0.2,
+      "sdrMaxLuminance": 80,
+      "hardwareCursorsInUse": true
+    },
+    {
+      "id": 1,
+      "name": "DP-3",
+      "description": "LG Electronics LG HDR DQHD 0x00058213",
+      "make": "LG Electronics",
+      "model": "LG HDR DQHD",
+      "serial": "0x00058213",
+      "width": 2560,
+      "height": 1440,
+      "physicalWidth": 600,
+      "physicalHeight": 340,
+      "refreshRate": 59.997,
+      "x": 1280,
+      "y": 0,
+      "activeWorkspace": {
+        "id": 3,
+        "name": "3"
+      },
+      "specialWorkspace": {
+        "id": 0,
+        "name": ""
+      },
+      "reserved": [
+        0,
+        191,
+        0,
+        0
+      ],
+      "scale": 1,
+      "transform": 0,
+      "focused": false,
+      "dpmsStatus": true,
+      "vrr": false,
+      "solitary": "0",
+      "solitaryBlockedBy": [
+        "WINDOWED",
+        "CANDIDATE"
+      ],
+      "activelyTearing": false,
+      "tearingBlockedBy": [
+        "NOT_TORN",
+        "USER",
+        "CANDIDATE"
+      ],
+      "directScanoutTo": "0",
+      "directScanoutBlockedBy": [
+        "USER",
+        "CANDIDATE"
+      ],
+      "disabled": false,
+      "currentFormat": "XRGB8888",
+      "mirrorOf": "none",
+      "availableModes": [
+        "2560x1440@60.00Hz",
+        "1920x1080@60.00Hz",
+        "1920x1080@60.00Hz",
+        "1920x1080@59.94Hz",
+        "1600x900@60.00Hz",
+        "1280x1024@60.02Hz",
+        "1280x800@59.81Hz",
+        "1152x864@59.97Hz",
+        "1280x720@60.00Hz",
+        "1280x720@60.00Hz",
+        "1280x720@59.94Hz",
+        "1024x768@60.00Hz",
+        "800x600@60.32Hz",
+        "720x480@60.00Hz",
+        "720x480@59.94Hz",
+        "640x480@60.00Hz",
+        "640x480@59.94Hz",
+        "640x480@59.94Hz"
+      ],
+      "colorManagementPreset": "srgb",
+      "sdrBrightness": 1,
+      "sdrSaturation": 1,
+      "sdrMinLuminance": 0.2,
+      "sdrMaxLuminance": 80,
+      "hardwareCursorsInUse": true
+    }
+  ],
+  "hyprland": {
+    "branch": "v0.56.2-b",
+    "commit": "efb50993780079460b0cbed1363e2166a2de1d9f",
+    "version": "0.56.2",
+    "dirty": false,
+    "commit_message": "[gha] Nix: update inputs",
+    "commit_date": "2026-08-05",
+    "tag": "v0.56.2",
+    "commits": "-1",
+    "buildAquamarine": "0.15.1",
+    "buildHyprlang": "0.6.8",
+    "buildHyprutils": "0.14.2",
+    "buildHyprcursor": "0.1.13",
+    "buildHyprgraphics": "0.5.1",
+    "systemAquamarine": "unknown",
+    "systemHyprlang": "unknown",
+    "systemHyprutils": "unknown",
+    "systemHyprcursor": "unknown",
+    "systemHyprgraphics": "unknown",
+    "abiHash": "efb50993780079460b0cbed1363e2166a2de1d9f_aq_0.15_hu_0.14_hg_0.5_hc_0.1_hlg_0.6",
+    "flags": [
+      "nix"
+    ]
+  },
+  "samples": [
+    {
+      "name": "iced",
+      "checks": [
+        {
+          "check": "bars_on_all_outputs",
+          "layers": [
+            {
+              "address": "0x5be6610ea470",
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@eDP-1",
+              "pid": 65415,
+              "output": "eDP-1",
+              "level": 2
+            },
+            {
+              "address": "0x5be6608ed8a0",
+              "x": 1280,
+              "y": 191,
+              "w": 2560,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "check": "height_zone",
+          "layers": [
+            {
+              "address": "0x5be6610c19c0",
+              "x": 1280,
+              "y": 191,
+              "w": 2560,
+              "h": 56,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 2
+            }
+          ],
+          "monitors": [
+            {
+              "id": 0,
+              "name": "eDP-1",
+              "description": "Apple Computer Inc Color LCD",
+              "make": "Apple Computer Inc",
+              "model": "Color LCD",
+              "serial": "",
+              "width": 2560,
+              "height": 1600,
+              "physicalWidth": 290,
+              "physicalHeight": 180,
+              "refreshRate": 60.001,
+              "x": 0,
+              "y": 0,
+              "activeWorkspace": {
+                "id": 1,
+                "name": "1"
+              },
+              "specialWorkspace": {
+                "id": 0,
+                "name": ""
+              },
+              "reserved": [
+                0,
+                56,
+                0,
+                0
+              ],
+              "scale": 2,
+              "transform": 0,
+              "focused": true,
+              "dpmsStatus": true,
+              "vrr": false,
+              "solitary": "0",
+              "solitaryBlockedBy": [
+                "WINDOWED",
+                "CANDIDATE",
+                "CONFIGERROR"
+              ],
+              "activelyTearing": false,
+              "tearingBlockedBy": [
+                "NOT_TORN",
+                "USER",
+                "CANDIDATE",
+                "HW_CURSOR"
+              ],
+              "directScanoutTo": "0",
+              "directScanoutBlockedBy": [
+                "USER",
+                "CANDIDATE"
+              ],
+              "disabled": false,
+              "currentFormat": "XRGB8888",
+              "mirrorOf": "none",
+              "availableModes": [
+                "2560x1600@60.00Hz"
+              ],
+              "colorManagementPreset": "srgb",
+              "sdrBrightness": 1,
+              "sdrSaturation": 1,
+              "sdrMinLuminance": 0.2,
+              "sdrMaxLuminance": 80,
+              "hardwareCursorsInUse": true
+            },
+            {
+              "id": 1,
+              "name": "DP-3",
+              "description": "LG Electronics LG HDR DQHD 0x00058213",
+              "make": "LG Electronics",
+              "model": "LG HDR DQHD",
+              "serial": "0x00058213",
+              "width": 2560,
+              "height": 1440,
+              "physicalWidth": 600,
+              "physicalHeight": 340,
+              "refreshRate": 59.997,
+              "x": 1280,
+              "y": 0,
+              "activeWorkspace": {
+                "id": 3,
+                "name": "3"
+              },
+              "specialWorkspace": {
+                "id": 0,
+                "name": ""
+              },
+              "reserved": [
+                0,
+                247,
+                0,
+                0
+              ],
+              "scale": 1,
+              "transform": 0,
+              "focused": false,
+              "dpmsStatus": true,
+              "vrr": false,
+              "solitary": "0",
+              "solitaryBlockedBy": [
+                "WINDOWED",
+                "CANDIDATE"
+              ],
+              "activelyTearing": false,
+              "tearingBlockedBy": [
+                "NOT_TORN",
+                "USER",
+                "CANDIDATE",
+                "HW_CURSOR"
+              ],
+              "directScanoutTo": "0",
+              "directScanoutBlockedBy": [
+                "USER",
+                "CANDIDATE"
+              ],
+              "disabled": false,
+              "currentFormat": "XRGB8888",
+              "mirrorOf": "none",
+              "availableModes": [
+                "2560x1440@60.00Hz",
+                "1920x1080@60.00Hz",
+                "1920x1080@60.00Hz",
+                "1920x1080@59.94Hz",
+                "1600x900@60.00Hz",
+                "1280x1024@60.02Hz",
+                "1280x800@59.81Hz",
+                "1152x864@59.97Hz",
+                "1280x720@60.00Hz",
+                "1280x720@60.00Hz",
+                "1280x720@59.94Hz",
+                "1024x768@60.00Hz",
+                "800x600@60.32Hz",
+                "720x480@60.00Hz",
+                "720x480@59.94Hz",
+                "640x480@60.00Hz",
+                "640x480@59.94Hz",
+                "640x480@59.94Hz"
+              ],
+              "colorManagementPreset": "srgb",
+              "sdrBrightness": 1,
+              "sdrSaturation": 1,
+              "sdrMinLuminance": 0.2,
+              "sdrMaxLuminance": 80,
+              "hardwareCursorsInUse": true
+            }
+          ]
+        },
+        {
+          "check": "malformed_retains_layout",
+          "passed": true
+        },
+        {
+          "check": "move_bottom",
+          "layers": [
+            {
+              "address": "0x5be6608e5630",
+              "x": 1280,
+              "y": 1384,
+              "w": 2560,
+              "h": 56,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "check": "add_surface",
+          "layers": [
+            {
+              "address": "0x5be660fb2270",
+              "x": 0,
+              "y": 744,
+              "w": 1280,
+              "h": 56,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@eDP-1",
+              "pid": 65415,
+              "output": "eDP-1",
+              "level": 1
+            },
+            {
+              "address": "0x5be6608e5630",
+              "x": 1280,
+              "y": 1384,
+              "w": 2560,
+              "h": 56,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 1
+            },
+            {
+              "address": "0x5be65f878b60",
+              "x": 1292,
+              "y": 191,
+              "w": 320,
+              "h": 240,
+              "alpha": 1,
+              "namespace": "iced-shell-notes@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "check": "page_change_host_alive",
+          "passed": true
+        },
+        {
+          "check": "remove_restore",
+          "passed": true
+        },
+        {
+          "check": "show_launcher",
+          "layers": [
+            {
+              "address": "0x5be66110e4e0",
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@eDP-1",
+              "pid": 65415,
+              "output": "eDP-1",
+              "level": 2
+            },
+            {
+              "address": "0x5be6610fb070",
+              "x": 1280,
+              "y": 191,
+              "w": 2560,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 2
+            },
+            {
+              "address": "0x5be65f878b60",
+              "x": 2280,
+              "y": 643,
+              "w": 560,
+              "h": 390,
+              "alpha": 1,
+              "namespace": "iced-shell-launcher@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "check": "show_menu",
+          "layers": [
+            {
+              "address": "0x5be66110e4e0",
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@eDP-1",
+              "pid": 65415,
+              "output": "eDP-1",
+              "level": 2
+            },
+            {
+              "address": "0x5be6610fb070",
+              "x": 1280,
+              "y": 191,
+              "w": 2560,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 2
+            },
+            {
+              "address": "0x5be6610c19c0",
+              "x": 1292,
+              "y": 235,
+              "w": 320,
+              "h": 240,
+              "alpha": 1,
+              "namespace": "iced-shell-menu@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "check": "show_input-test",
+          "layers": [
+            {
+              "address": "0x5be66110e4e0",
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@eDP-1",
+              "pid": 65415,
+              "output": "eDP-1",
+              "level": 2
+            },
+            {
+              "address": "0x5be6610fb070",
+              "x": 1280,
+              "y": 191,
+              "w": 2560,
+              "h": 44,
+              "alpha": 1,
+              "namespace": "iced-shell-bar@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 2
+            },
+            {
+              "address": "0x5be65f878b60",
+              "x": 2250,
+              "y": 658,
+              "w": 620,
+              "h": 360,
+              "alpha": 1,
+              "namespace": "iced-shell-input-test@DP-3",
+              "pid": 65415,
+              "output": "DP-3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "check": "reload_host_alive",
+          "passed": true
+        }
+      ],
+      "baseline_reservations": {
+        "eDP-1": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "DP-3": [
+          0,
+          191,
+          0,
+          0
+        ]
+      },
+      "iteration": 1
+    }
+  ],
+  "errors": [],
+  "method": "direct-process startup to bar layer entries with configured height and nonzero compositor alpha; launcher to configured geometry/nonzero alpha; no guarantee of content frame/presentation; 10ms polling; warm OS cache; CPU percent of one core; summed child-process RSS and PSS"
+}

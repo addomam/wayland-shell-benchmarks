@@ -1,0 +1,414 @@
+[
+  {
+    "path": "iced-shell/flake.nix",
+    "sha256": "891f0fcc5cb363d9ae2fc633cd134bc5c3a5bce8874951612380b2ca89fe3927"
+  },
+  {
+    "path": "iced-shell/flake.lock",
+    "sha256": "d90a145de8164e1912fa559f46147c2f2586ef7a4a6fb95c1bd1db26e1d121cc"
+  },
+  {
+    "path": "iced-shell/Cargo.lock",
+    "sha256": "a6595367335dbfe8fbcf58bd031d3f48a11c16c5ce4b72d5cd72e75252198eff"
+  },
+  {
+    "path": "iced-shell/surfaces.json",
+    "sha256": "baea4637d16fb47304c499e67bf3010f55eb71462346fe8a5304fe537b5a38d3"
+  },
+  {
+    "path": "iced-shell/Cargo.toml",
+    "sha256": "fc6f7a08b5f2fa2f5850cb34b9983195d4399f2c8b8625f56c283032613f3dae"
+  },
+  {
+    "path": "iced-shell/build.rs",
+    "sha256": "7bb1d6d81ae2f321396b470c980426442322d50754fd98007dac5b0936489e51"
+  },
+  {
+    "path": "iced-shell/.gitignore",
+    "sha256": "79554ee42492c2ae16294e0626240778049449abb33797a6cd153f6130d06012"
+  },
+  {
+    "path": "iced-shell/build.sh",
+    "sha256": "086c16d86b5bd7ea400acdb2cecbb0a99348a692a422413d014d3d67c6a64fc1"
+  },
+  {
+    "path": "iced-shell/README.md",
+    "sha256": "79b5137c484cb060be191c203b316cbe89aae73cec8b74d68bdb16c1ec9c7de9"
+  },
+  {
+    "path": "iced-shell/src/config.rs",
+    "sha256": "16d4879de04d1b62f8f139c5f83965278279d5f231db2ff715a26c59f00b3cc8"
+  },
+  {
+    "path": "iced-shell/src/hyprland.rs",
+    "sha256": "cd70f9db0f2df4103090ba88d19a6df967d102b7c46657991066f0825a007d27"
+  },
+  {
+    "path": "iced-shell/src/main.rs",
+    "sha256": "a12fc7441f68765f605b5e869d29754e474cb34fedf53b2f04e94b1fee6b419b"
+  },
+  {
+    "path": "iced-shell/src/events.rs",
+    "sha256": "e8ddcaedf86725a39764f26e84c49a560ea216801c885185a6df21a9c4c89d0b"
+  },
+  {
+    "path": "iced-shell/pages/bar.json",
+    "sha256": "f80052bec5be8cdb21fe6b78fc95681a5df02601cfcd3482ec4f0765c28f1aa8"
+  },
+  {
+    "path": "iced-shell/pages/launcher.json",
+    "sha256": "cd55629d1ce1cb2fa71e2453d2d553c82dfbb74d88ef44022240178937911907"
+  },
+  {
+    "path": "iced-shell/pages/menu.json",
+    "sha256": "9e9a340b5c6f1e071082c92ba58900eb079883b495c67ba6734098430d8977c0"
+  },
+  {
+    "path": "iced-shell/pages/input-test.json",
+    "sha256": "b8c8ed24c84a5f1b4ffa3071bdd291cbef610283a45d4371e555ee770782b791"
+  },
+  {
+    "path": "iced-shell/pages/generic.json",
+    "sha256": "3a0adf248f50bdbd1fa381f50b1824ab94828b53b8a47d067b0c8e098efc9da4"
+  },
+  {
+    "path": "iced-shell/vendor/README.md",
+    "sha256": "c3da4680387afcc9207425030dd06e961599d8590abadbe661fa8b558785c641"
+  },
+  {
+    "path": "iced-shell/vendor/LICENSE",
+    "sha256": "f42393dbd25860cd6e95c3da8aa4d7fde6fe60eedaccf44a72155f90a1556c6c"
+  },
+  {
+    "path": "iced-shell/diagnostics/Cargo.toml",
+    "sha256": "f9100d965254c2e6acbf017887b08561f4d696d3b3869b2fa5a484f3907bac41"
+  },
+  {
+    "path": "iced-shell/diagnostics/src/lib.rs",
+    "sha256": "4a447d8cd52eb6b4c2c9e8667752d4d2b932cf2f185d35072ddefe8b296bcf75"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/Cargo.toml",
+    "sha256": "0565a4c075c72a5ebeb77968f0b768e6b5708a2c229b60b07be736fecf3eac4a"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/Cargo.toml.orig",
+    "sha256": "63f88e33b08177f338951107b3e0959d61ca755cfaafc4660530504b703fc8d5"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/README.md",
+    "sha256": "e8f3b3891474408b21440e69557ec394b600fa5a79b6b5547561e6bb09e70953"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/Cargo.toml",
+    "sha256": "9b57682d80e0113fb1f970b0f8674e91835ac81810dae387156d573babf20058"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/Cargo.toml.orig",
+    "sha256": "9e95a7728beddf7ca55cad25b319ac67a73c9eab81770075cc9eae3a8920f996"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/README.md",
+    "sha256": "509b70f380a196e330300e22623ffc4f6702b4eb2cad0f35e0ed68823413b12a"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/examples/simpleshell.rs",
+    "sha256": "a3c0a8ac183b99ca47fc4c3284b4d661d04e5f603a3f68b0892802115913af27"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/blur.rs",
+    "sha256": "c102a4732251439652652fd692a1eebf1fb7460f9d59ceefb28e54174399e763"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/dpi.rs",
+    "sha256": "70ea5fe95b0e03ea219aa9b33f40670666febece6ecc6340ed1364e1009def55"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/events.rs",
+    "sha256": "36cd65145d6cd78251786428907291b6271b7cc1c04b72f29c27530c670f2bf9"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/id.rs",
+    "sha256": "37dc25a14c7d00cb643fb5f10042e092c548b7332bb5ba0268819146f3883425"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/lib.rs",
+    "sha256": "f23074118f7920fab86322fbbb82bf289de968c74683b2f12a363901cd1960f0"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/seat.rs",
+    "sha256": "73e8f94647b4ffd2d21de79408770b7ed19c1e83a2aa30a229e52fe3b573892b"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/size.rs",
+    "sha256": "44100791b866414ce534552791c798ebc64c7ad98a3035317f7c2e6668ad9ff6"
+  },
+  {
+    "path": "iced-shell/vendor/exwlshellev/src/strtoshape.rs",
+    "sha256": "fff27c0030cf43549a4db801321430dbdf70db001ef773074861ba33bb00efed"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/actions.rs",
+    "sha256": "a07c3a5a32e168c3a63410233953558c2a8aa307e5ce62a9a761af9d83ae9d38"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern.rs",
+    "sha256": "257a577976a107c24382c58c1e92820087c1589952e4933715ee853ee3575964"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/clipboard.rs",
+    "sha256": "c8b5ef38dff7d9e70ac067890d3c87c3a2df98da7fd644f24f9a66621d75d48c"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/conversion.rs",
+    "sha256": "1688f080c8958506c8b9a4bb922053bb0532ee8d094e56855d10ac6f06b9c050"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/error.rs",
+    "sha256": "58fa539e689eb2def3d8b81ed083459d973e790cc6eef81a00b8b81fdfe9d1ab"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/event.rs",
+    "sha256": "e35f3243584dc1329beb3ec8ccda21a65b9156c8d1500c6c263f57d4287184ed"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/ime_preedit.rs",
+    "sha256": "5f16a01d26f0262e3084f291cbf46df920935538e41daf8a447179fe1fddff52"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/lib.rs",
+    "sha256": "964e43224128c98b4172039ef622dd7bc036b9bfc63b6eb42e11dac16b488175"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/multi_window.rs",
+    "sha256": "89dc7a8eb9503abd874904f5e12232d44232db57411013cfd9759470b46a903f"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/proxy.rs",
+    "sha256": "3c20de1835bf5ec981e4f4a90885e07b9930dcbb17d4ea1665623cec304cb69e"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/redraw.rs",
+    "sha256": "7f3446905c1992b14e217652626d4b7dfc95186b49db52c336f769b9545654d8"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/settings.rs",
+    "sha256": "7b51639e2ab7cea3f6f48abacda3a5aa75cf6524596b5afb1333e9451befbaaf"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/user_interface.rs",
+    "sha256": "0e06105df963aa74a3fd55bd6d9d9fc84c494542c280c2ab214fe7fe3e641889"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/tests/test_macro.rs",
+    "sha256": "132bffa1eb668887f9051a7470ef2155ad74fcd70328b9d97508069a947eddbb"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/daemon.md",
+    "sha256": "5dce7d5420d3fa6d815823f5a6ef31841478e3dbc29bcd752283a4a28d0636d4"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/daemon.rs",
+    "sha256": "534304912e2635ff5a7570dcfa5c9400b75ae909dd857ad4d28be33c59e42cdb"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/layershell.md",
+    "sha256": "d40ca678c071d0e584eaeb91555fef66c5d2d2dbe1a300d94ba531622745bf22"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/layershell.rs",
+    "sha256": "5677b0b8487743a43be8e276cf23e81df3ff96b2599e431ec002fb64dd590e74"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/sessionlock.md",
+    "sha256": "6f29aef460f9f5be329b27d35079e3223ead32f90bfc369812ddb4e5348f2fe0"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/sessionlock.rs",
+    "sha256": "b902a0306cbd5365dd32b7e6b2734e2bf9e0b487862e55b3c32372977512ed59"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/conversion/keymap.rs",
+    "sha256": "6d74b9e3115f6d51ce88b1ba7240c8cb5b1b54b691af44f25206de1034e711a1"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/multi_window/state.rs",
+    "sha256": "b81b8669e973e95363a116d11fd6c614223fb92ee2f69d881060dac2805ed7b5"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/multi_window/window_manager.rs",
+    "sha256": "3adf8d15e6c4d267c30c669f5434bba0011602471031b05fcfeb5a34aa0bb2eb"
+  },
+  {
+    "path": "iced-shell/vendor/iced_exwlshell/src/build_pattern/layershell/time.rs",
+    "sha256": "c4ff8487c02156b865b374d06b821533746a904d01afca31cf0358c0c118f90c"
+  },
+  {
+    "path": "webshell-prototype/build.sh",
+    "sha256": "20c88e1d9922664923219f0b4b5cf47847bdc6a4713bd62ea714c8839d2687d0"
+  },
+  {
+    "path": "webshell-prototype/flake.nix",
+    "sha256": "a49c6ae06982a526244330697be282e4ef8d03cc04155b6cd6f8d9cfd36349b2"
+  },
+  {
+    "path": "webshell-prototype/flake.lock",
+    "sha256": "d90a145de8164e1912fa559f46147c2f2586ef7a4a6fb95c1bd1db26e1d121cc"
+  },
+  {
+    "path": "webshell-prototype/README.md",
+    "sha256": "7d766beb5443cc99bf98ef224cfd0f1ee6c22fc8af16c89c565b49038051b6f8"
+  },
+  {
+    "path": "webshell-prototype/.gitignore",
+    "sha256": "caf84edcd1210e380704cf422d6aae7f893e953e1b317bcaeb732230c0eb5e92"
+  },
+  {
+    "path": "webshell-prototype/Cargo.toml",
+    "sha256": "7ad085327aba0f3c607a482fe725bdb3c902345296bf0a713d19fb30d45c8b04"
+  },
+  {
+    "path": "webshell-prototype/build.rs",
+    "sha256": "41c25f066ab3f7c79ec7255999ae80f45d253dce69cc4cb6efe48b5f9f92a3c3"
+  },
+  {
+    "path": "webshell-prototype/Cargo.lock",
+    "sha256": "ccc988f716afb2def55218690385522d90e056be76e7193d99311eaa89716b97"
+  },
+  {
+    "path": "webshell-prototype/surfaces.json",
+    "sha256": "6a850c08c64ea6d50e7679b0f4f61da6f2cc8c28294c463328a07c7620dd9814"
+  },
+  {
+    "path": "webshell-prototype/package.json",
+    "sha256": "2cd25d4438b31f2e37d3f111b744a0fc37b047876b55ffefcbd84bac4b5067a0"
+  },
+  {
+    "path": "webshell-prototype/vite.config.mjs",
+    "sha256": "5cc964ed075dda684aec14eea7ef0364cac9bf70d731d552d741a2f16a1cab07"
+  },
+  {
+    "path": "webshell-prototype/package-lock.json",
+    "sha256": "4bbac6149855fc8fd2559b935ae644b11908f8e097939a18db5f2f905894e7ca"
+  },
+  {
+    "path": "webshell-prototype/src/main.rs",
+    "sha256": "178447f4b85a5d7fb54288fd52b439365b3ec8d82cc1859c2c1d7c3b3773597a"
+  },
+  {
+    "path": "webshell-prototype/src/config.rs",
+    "sha256": "dcaa01fdbd06469c986f8ca95ca2e96a98487be00c80670af76e0c6b91c0c229"
+  },
+  {
+    "path": "webshell-prototype/src/hyprland.rs",
+    "sha256": "e7f50b9e9ee0d245c43fc15042b80d10dc850114dea14646a97b8a9d1726915b"
+  },
+  {
+    "path": "webshell-prototype/assets/bar.html",
+    "sha256": "5aa8becb19de683086aabffef18c7c3407d34e1fa413d81d948e248cda662194"
+  },
+  {
+    "path": "webshell-prototype/assets/bar.js",
+    "sha256": "e7a9a9a29e8a105ef00560db7e883e3a11a4eec3f3890eb0cbb9262b83fe0379"
+  },
+  {
+    "path": "webshell-prototype/assets/launcher.html",
+    "sha256": "71e7dc4ad85ea4d4284a24f3f09cceb2e5bcea877c4dc9188d3c0893bcfe8d01"
+  },
+  {
+    "path": "webshell-prototype/assets/launcher.js",
+    "sha256": "5c22cebc394eda0d472042ff41fe827cb08c41eb880b36f1ce02b6634c3d4a38"
+  },
+  {
+    "path": "webshell-prototype/assets/shell.js",
+    "sha256": "ff475a6a34a6ee593222a0605c31f97376cbc39f6888e272b0ae6d3bc937c0ba"
+  },
+  {
+    "path": "webshell-prototype/assets/menu.html",
+    "sha256": "5fd703bbb514304490215bd79c54e5e0ac34e1582d5878badf8992431ec328a0"
+  },
+  {
+    "path": "webshell-prototype/assets/input-test.html",
+    "sha256": "c0b4bf83cc18235eb9fa1465b891a7fb92e79797bf861cdfecbecdd99d2827cf"
+  },
+  {
+    "path": "webshell-prototype/assets/dev-bar.html",
+    "sha256": "72621ae71dda38962a8b620b779053f6b0218064bc863c529876d504b9e1a53a"
+  },
+  {
+    "path": "webshell-prototype/assets/style.css",
+    "sha256": "07afc9db4788eb65d43a0f27fe4e97f3044ccf7bf030c683f1e3b424ab727105"
+  },
+  {
+    "path": "quickshell-shell/flake.lock",
+    "sha256": "d90a145de8164e1912fa559f46147c2f2586ef7a4a6fb95c1bd1db26e1d121cc"
+  },
+  {
+    "path": "quickshell-shell/flake.nix",
+    "sha256": "9e85f5606d5dc6610de578fa6f9f00767c40de3b0e5daddd05fc7c889084b433"
+  },
+  {
+    "path": "quickshell-shell/config.js",
+    "sha256": "086c1950a03be4b326117826b3feca7e7f628ad3dd50f19d316e17d692a66d9a"
+  },
+  {
+    "path": "quickshell-shell/Surface.qml",
+    "sha256": "fe77f11d63f9dd1beca028b34afbd3d2c9610c8d43f508cbcabba3d96bb2ecdf"
+  },
+  {
+    "path": "quickshell-shell/PreviewSurface.qml",
+    "sha256": "c041b08f1076909d0f96fce6b26b549a1decdaf674926b9fc326b17575964d34"
+  },
+  {
+    "path": "quickshell-shell/SurfaceContent.qml",
+    "sha256": "66ffddd5e3a5b8db94395937c960e46bfc9669a92684f1bc0cc4bb7c9eda1c66"
+  },
+  {
+    "path": "quickshell-shell/.gitignore",
+    "sha256": "6dceac164a3e550e88944d778298e05d62f8a43a0789bd1bf484c1788f8ae268"
+  },
+  {
+    "path": "quickshell-shell/surfaces.json",
+    "sha256": "34c85c187cddd4673df9f9c6acc19922977340be12c110d91634744a2d0289cb"
+  },
+  {
+    "path": "quickshell-shell/test-config.js",
+    "sha256": "430db21ec14f756d7cb842c03b48846b2f1805e01349e852ada75a4a9204ccac"
+  },
+  {
+    "path": "quickshell-shell/README.md",
+    "sha256": "02d193575052fa63a70ed2a9f08152e8363dde73e87658ba2abe9ecc1f6c2fa1"
+  },
+  {
+    "path": "quickshell-shell/shell.qml",
+    "sha256": "4c4188466551008628877269781b5c598677bd2497de4b2fa421af9d3b12e89a"
+  },
+  {
+    "path": "quickshell-shell/pages/Action.qml",
+    "sha256": "2e7b40ffbe828f84f8353df48e7c4531ed1833b37a6365999b2fe61468669061"
+  },
+  {
+    "path": "quickshell-shell/pages/Generic.qml",
+    "sha256": "0f08f75a533537316b691b98fc1f32dadb544e4a9907bb254790b9d2f26eadf4"
+  },
+  {
+    "path": "quickshell-shell/pages/Bar.qml",
+    "sha256": "a9918174a64b2ea29a4472d8d3911eb947465ae3f3848afcedac99d184604919"
+  },
+  {
+    "path": "quickshell-shell/pages/Menu.qml",
+    "sha256": "6fc8db4e6310d07417bcb030a6e0081a3cf9ac3a9103fcfe316a563a114b570e"
+  },
+  {
+    "path": "quickshell-shell/pages/InputTest.qml",
+    "sha256": "88bf9a9dd0363d773e127f5a6d14124ed16d76312b7650b9c7450ec41fd2d96e"
+  },
+  {
+    "path": "quickshell-shell/pages/qmldir",
+    "sha256": "8d2d8f08835c6ff7652b76b053f5b98693feaacfa82407fbb8743a0bd6c52e05"
+  },
+  {
+    "path": "quickshell-shell/pages/Launcher.qml",
+    "sha256": "e2f81b28014b52ecf3fd4981eb2e8d1f9f0ea982427927c7191b866d538b85e9"
+  }
+]

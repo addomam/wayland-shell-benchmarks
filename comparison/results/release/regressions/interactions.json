@@ -1,0 +1,153 @@
+{
+  "method": "virtual-pointer command start to correctly sized launcher layer with nonzero alpha; includes wlrctl invocation; not click-to-photon",
+  "samples": [
+    {
+      "name": "web",
+      "pointer_launcher_ms": [
+        {
+          "output": "eDP-1",
+          "ms": 36.65927499969257
+        },
+        {
+          "output": "eDP-1",
+          "ms": 15.083325000887271
+        },
+        {
+          "output": "eDP-1",
+          "ms": 15.945864004606847
+        },
+        {
+          "output": "DP-3",
+          "ms": 24.48571899731178
+        },
+        {
+          "output": "DP-3",
+          "ms": 15.211305006232578
+        },
+        {
+          "output": "DP-3",
+          "ms": 15.851992997340858
+        }
+      ],
+      "input_regions": [
+        {
+          "output": "eDP-1",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        },
+        {
+          "output": "DP-3",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        }
+      ],
+      "workspace_control_ipc_ms": 21.432536996144336,
+      "workspace_log_evidence": [
+        "WORKSPACES current=Some(1) list=[1, 2, 3]",
+        "DOM_TITLE bar@DP-3 workspaces:1,2,3 active:1",
+        "DOM_TITLE bar@eDP-1 workspaces:1,2,3 active:1",
+        "WORKSPACES current=Some(3) list=[1, 2, 3]",
+        "DOM_TITLE bar@eDP-1 workspaces:1,2,3 active:3",
+        "DOM_TITLE bar@DP-3 workspaces:1,2,3 active:3",
+        "WORKSPACES current=Some(99) list=[1, 2, 3, 99]",
+        "DOM_TITLE bar@eDP-1 workspaces:1,2,3,99 active:99",
+        "DOM_TITLE bar@DP-3 workspaces:1,2,3,99 active:99"
+      ]
+    },
+    {
+      "name": "iced",
+      "pointer_launcher_ms": [
+        {
+          "output": "eDP-1",
+          "ms": 13.50981299765408
+        },
+        {
+          "output": "eDP-1",
+          "ms": 26.334645997849293
+        },
+        {
+          "output": "eDP-1",
+          "ms": 25.64004899613792
+        },
+        {
+          "output": "DP-3",
+          "ms": 13.677950999408495
+        },
+        {
+          "output": "DP-3",
+          "ms": 27.42811600182904
+        },
+        {
+          "output": "DP-3",
+          "ms": 26.99374200165039
+        }
+      ],
+      "input_regions": [
+        {
+          "output": "eDP-1",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        },
+        {
+          "output": "DP-3",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        }
+      ],
+      "workspace_control_ipc_ms": 11.761886002204847,
+      "workspace_log_evidence": [
+        "WORKSPACES current=Some(1)",
+        "WORKSPACES current=Some(3)",
+        "WORKSPACES current=Some(99)"
+      ]
+    },
+    {
+      "name": "quickshell",
+      "pointer_launcher_ms": [
+        {
+          "output": "eDP-1",
+          "ms": 46.291655002278276
+        },
+        {
+          "output": "eDP-1",
+          "ms": 36.90122400439577
+        },
+        {
+          "output": "eDP-1",
+          "ms": 37.358137997216545
+        },
+        {
+          "output": "DP-3",
+          "ms": 23.056305006321054
+        },
+        {
+          "output": "DP-3",
+          "ms": 47.35605300083989
+        },
+        {
+          "output": "DP-3",
+          "ms": 36.59905699896626
+        }
+      ],
+      "input_regions": [
+        {
+          "output": "eDP-1",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        },
+        {
+          "output": "DP-3",
+          "transparent_pass_through": true,
+          "interactive_received": true
+        }
+      ],
+      "workspace_control_ipc_ms": 126.7303560016444,
+      "workspace_log_evidence": [
+        " DEBUG qml: WORKSPACES current=1",
+        " DEBUG qml: WORKSPACES current=3",
+        " DEBUG qml: WORKSPACES current=99"
+      ]
+    }
+  ],
+  "errors": []
+}

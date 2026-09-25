@@ -1,0 +1,12 @@
+WORKSPACES current=Some(1)
+CREATE bar@eDP-1
+CREATE bar@DP-3
+READY bar@eDP-1
+READY bar@DP-3
+CREATE launcher@DP-3
+TOGGLE launcher@DP-3 shown
+READY launcher@DP-3
+WORKSPACES current=Some(3)
+DESTROY launcher@DP-3
+WORKSPACES current=Some(99)
+WORKSPACES current=Some(1)

@@ -1,0 +1,27 @@
+--- exwlshellev-0.20.1/Cargo.toml
++++ vendor/exwlshellev/Cargo.toml
+@@ -94,3 +94,6 @@
+ version = "0.3.12"
+ features = ["client"]
+ default-features = false
++
++[dependencies.shell-diagnostics]
++path = "../../diagnostics"
+--- exwlshellev-0.20.1/src/lib.rs
++++ vendor/exwlshellev/src/lib.rs
+@@ -887,6 +887,7 @@
+     }
+ 
+     pub fn request_refresh(&mut self, request: RefreshRequest) {
++        shell_diagnostics::inc(4);
+         // refresh request in nearest future has the highest priority.
+         match self.request_flag.refresh {
+             RefreshRequest::NextFrame => {}
+@@ -3640,6 +3641,7 @@
+                 state.raw.min_dispatch_timeout()
+             };
+             event_loop.dispatch(timeout, &mut state)?;
++            shell_diagnostics::inc(0);
+             force_first_tick = false;
+ 
+             let r_window_state = &mut state;

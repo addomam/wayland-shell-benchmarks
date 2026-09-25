@@ -1,0 +1,7 @@
+{
+  "external_project_directory_reload": true,
+  "symlink_target_atomic_replace": true,
+  "malformed_descriptor_retained_host": true,
+  "descriptor_recovery": true,
+  "native_addresses_retained": true
+}

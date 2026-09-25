@@ -1,0 +1,2 @@
+[ perf record: Woken up 7 times to write data ]
+[ perf record: Captured and wrote 2.829 MB /home/addomam/Projects/wayland-web-widgets/comparison/results/cpu/quickshell-idle.perf.data (337 samples) ]
