@@ -82,7 +82,7 @@ nix develop path:./comparison -c bash comparison/cpu_perf.sh
 - [Raw CPU evidence index](comparison/results/cpu/README.md): includes failed/interrupted attempts and their interpretation. Raw artifacts contain host-specific paths and desktop/output details intentionally as provenance.
 - The pre-optimization executables existed locally under ignored `iced-shell/target/cpu-before/`. Their hashes/results are retained, but a fresh clone does **not** contain those executables or a complete buildable old source snapshot. Readers can reproduce the current implementation and inspect the baseline evidence; exact historical source reproduction requires an independently preserved pre-refactor revision. Adapter instrumentation patches alone are insufficient.
 - Nix closures were estimated from mapped-library roots, not produced by minimal app packaging. They are not download-size or security scores. Advisory findings require checking current upstream fixes and downstream backports before making deployment decisions.
-- The root has no license grant yet. Upstream vendored licenses remain in place; the owner should choose the repository's license before advertising unrestricted reuse.
+- Original repository work is under [CC0 1.0 Universal](LICENSE). The vendored adapter retains its upstream MIT license in `iced-shell/vendor/LICENSE`.
 
 ## What has actually been verified
 

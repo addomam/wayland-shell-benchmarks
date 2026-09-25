@@ -65,4 +65,6 @@ Real panels require `zwlr_layer_shell_v1` (Hyprland, Sway, etc.). GNOME normally
 
 This is a research prototype, not a supported replacement desktop shell. The useful next comparison is to apply the same event-source discipline to Quickshell and WebKit, then compare equivalent clock/render workloads. There is no evidence here that warrants replacing iced with a custom renderer yet.
 
-Publication note: there is currently no repository-wide license grant. The vendored adapter retains its upstream MIT license. A repository license still needs to be chosen by the owner before presenting this as freely reusable source.
+## License
+
+The original work in this repository is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). The vendored adapter in `iced-shell/vendor/` retains its upstream MIT license; see [its license](iced-shell/vendor/LICENSE).
